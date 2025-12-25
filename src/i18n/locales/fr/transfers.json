@@ -1,0 +1,50 @@
+{
+  "title": "Transferts",
+  "transfer": "Transfert",
+  "create": "Créer un transfert",
+  "fields": {
+    "transfer_number": "N° de transfert",
+    "from_store": "Du magasin",
+    "to_store": "Au magasin",
+    "status": "Statut",
+    "items": "Articles",
+    "notes": "Notes",
+    "date": "Date"
+  },
+  "status": {
+    "REQUESTED": "Demandé",
+    "APPROVED": "Approuvé",
+    "IN_TRANSIT": "En transit",
+    "RECEIVED": "Reçu",
+    "CANCELLED": "Annulé"
+  },
+  "messages": {
+    "created": "Transfert créé",
+    "approved": "Transfert approuvé",
+    "shipped": "Transfert expédié",
+    "received": "Transfert reçu",
+    "cancelled": "Transfert annulé",
+    "required_store": "Magasin cible requis",
+    "required_items": "Au moins un article requis",
+    "create_error": "Erreur lors de la création du transfert"
+  },
+  "total": "{{count}} transferts au total",
+  "create_subtitle": "Transférer le stock entre magasins",
+  "form": {
+    "target_store_card": "Magasin cible",
+    "target_store_label": "Magasin cible *",
+    "items_card": "Articles",
+    "product_id_label": "ID produit",
+    "quantity_label": "Quantité",
+    "no_items": "Aucun article ajouté",
+    "add": "Ajouter",
+    "submit": "Créer le transfert"
+  },
+  "actions": {
+    "approve": "Approuver",
+    "cancel": "Annuler",
+    "receive": "Recevoir",
+    "reject": "Rejeter",
+    "ship": "Expédier"
+  }
+}

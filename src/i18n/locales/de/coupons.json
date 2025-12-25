@@ -1,0 +1,50 @@
+{
+  "title": "Gutscheine",
+  "coupon": "Gutschein",
+  "create": "Gutschein erstellen",
+  "edit": "Gutschein bearbeiten",
+  "fields": {
+    "code": "Code",
+    "type": "Typ",
+    "value": "Wert",
+    "min_order_amount": "Mindestbestellwert",
+    "max_uses": "Max. Verwendungen",
+    "uses_count": "Verwendet",
+    "valid_from": "Gültig ab",
+    "valid_until": "Gültig bis",
+    "is_active": "Aktiv"
+  },
+  "type": {
+    "PERCENTAGE": "Prozentsatz",
+    "FIXED_AMOUNT": "Fester Betrag"
+  },
+  "messages": {
+    "created": "Gutschein erstellt",
+    "updated": "Gutschein aktualisiert",
+    "deleted": "Gutschein gelöscht",
+    "create_error": "Fehler beim Erstellen des Gutscheins"
+  },
+  "total": "{{count}} Gutscheine gesamt",
+  "create_subtitle": "Neuen Rabattcode hinzufügen",
+  "form": {
+    "details_card": "Gutschein-Details",
+    "validity_card": "Gültigkeit",
+    "description_card": "Beschreibung",
+    "description_subheader": "Optional — wird dem Kunden angezeigt",
+    "code_label": "Gutscheincode *",
+    "code_hint": "Nur Großbuchstaben, Zahlen, - und _",
+    "discount_type_label": "Rabattart",
+    "discount_value_label": "Rabattwert *",
+    "min_order_label": "Mindestbestellwert (optional)",
+    "max_uses_label": "Max. Verwendungen (optional)",
+    "valid_from_label": "Gültig ab *",
+    "valid_until_label": "Gültig bis *",
+    "active_label": "Gutschein aktiv",
+    "desc_de_label": "Beschreibung (Deutsch)",
+    "desc_en_label": "Beschreibung (Englisch)",
+    "type_percentage": "Prozentsatz (%)",
+    "type_fixed": "Festbetrag (CHF)",
+    "save_btn": "Änderungen speichern",
+    "create_btn": "Gutschein erstellen"
+  }
+}

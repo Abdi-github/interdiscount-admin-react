@@ -1,0 +1,52 @@
+{
+  "title": "Promotions",
+  "promotion": "Promotion",
+  "create": "Create Promotion",
+  "edit": "Edit Promotion",
+  "fields": {
+    "name": "Name",
+    "type": "Type",
+    "value": "Value",
+    "buy_quantity": "Buy Quantity",
+    "get_quantity": "Get Quantity",
+    "start_date": "Start Date",
+    "end_date": "End Date",
+    "is_active": "Active"
+  },
+  "type": {
+    "PERCENTAGE": "Percentage",
+    "FIXED_AMOUNT": "Fixed Amount",
+    "BUY_X_GET_Y": "Buy X Get Y",
+    "percentage": "Percentage Discount",
+    "fixed": "Fixed Amount (CHF)",
+    "buy_x_get_y": "Buy X, Get Y"
+  },
+  "messages": {
+    "created": "Promotion created",
+    "updated": "Promotion updated",
+    "deleted": "Promotion deleted",
+    "create_error": "Error creating promotion",
+    "update_error": "Error updating promotion"
+  },
+  "total": "{{count}} promotions total",
+  "create_subtitle": "Add new store promotion",
+  "form": {
+    "details_card": "Promotion Details",
+    "validity_card": "Validity",
+    "title_field": "Title",
+    "description_field": "Description",
+    "type_field": "Type",
+    "value_field": "Value",
+    "buy_x_label": "Buy X",
+    "get_y_label": "Get Y",
+    "start_date": "Start Date",
+    "end_date": "End Date",
+    "activate_label": "Activate promotion immediately",
+    "active_label": "Promotion active"
+  },
+  "update_btn": "Update",
+  "detail": {
+    "not_found": "Promotion data not available. Please navigate via the promotions list.",
+    "back": "Back to list"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "title": "Promozioni",
+  "promotion": "Promozione",
+  "create": "Crea promozione",
+  "edit": "Modifica promozione",
+  "fields": {
+    "name": "Nome",
+    "type": "Tipo",
+    "value": "Valore",
+    "start_date": "Data inizio",
+    "end_date": "Data fine",
+    "is_active": "Attivo",
+    "buy_quantity": "Quantità acquistata",
+    "get_quantity": "Quantità gratuita"
+  },
+  "type": {
+    "PERCENTAGE": "Percentuale",
+    "FIXED_AMOUNT": "Importo fisso",
+    "BUY_X_GET_Y": "Acquista X prendi Y",
+    "percentage": "Sconto percentuale",
+    "fixed": "Importo fisso (CHF)",
+    "buy_x_get_y": "Acquista X, ottieni Y"
+  },
+  "messages": {
+    "created": "Promozione creata",
+    "updated": "Promozione aggiornata",
+    "deleted": "Promozione eliminata",
+    "create_error": "Errore durante la creazione",
+    "update_error": "Errore durante l'aggiornamento"
+  },
+  "total": "{{count}} promozioni in totale",
+  "create_subtitle": "Aggiungi nuova promozione negozio",
+  "form": {
+    "details_card": "Dettagli promozione",
+    "validity_card": "Validità",
+    "title_field": "Titolo",
+    "description_field": "Descrizione",
+    "type_field": "Tipo",
+    "value_field": "Valore",
+    "buy_x_label": "Acquista X",
+    "get_y_label": "Ottieni Y",
+    "start_date": "Data inizio",
+    "end_date": "Data fine",
+    "activate_label": "Attiva subito la promozione",
+    "active_label": "Promozione attiva"
+  },
+  "update_btn": "Aggiorna",
+  "detail": {
+    "not_found": "Dati della promozione non disponibili. Navigare tramite la lista delle promozioni.",
+    "back": "Torna alla lista"
+  }
+}

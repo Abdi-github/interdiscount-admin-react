@@ -1,0 +1,27 @@
+{
+  "title": "Inventar",
+  "fields": {
+    "product": "Produkt",
+    "quantity": "Bestand",
+    "reserved": "Reserviert",
+    "available": "Verfügbar",
+    "min_stock": "Mindestbestand",
+    "max_stock": "Maximalbestand",
+    "location": "Lagerplatz",
+    "last_restock": "Letzte Auffüllung"
+  },
+  "actions": {
+    "update_stock": "Bestand aktualisieren",
+    "bulk_update": "Massenaktualisierung",
+    "export": "Export"
+  },
+  "alerts": {
+    "low_stock": "Geringer Bestand",
+    "out_of_stock": "Nicht verfügbar"
+  },
+  "messages": {
+    "updated": "Bestand aktualisiert",
+    "bulk_updated": "Bestände aktualisiert"
+  },
+  "total": "{{count}} Artikel gesamt"
+}

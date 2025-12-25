@@ -1,0 +1,53 @@
+{
+  "title": "Benutzer",
+  "user": "Benutzer",
+  "fields": {
+    "name": "Name",
+    "email": "E-Mail",
+    "role": "Rolle",
+    "status": "Status",
+    "verified": "Verifiziert",
+    "created": "Erstellt",
+    "user_type": "Benutzertyp",
+    "first_name": "Vorname",
+    "last_name": "Nachname",
+    "phone": "Telefon",
+    "language": "Sprache"
+  },
+  "roles": {
+    "super_admin": "Super Admin",
+    "admin": "Admin",
+    "store_manager": "Filialleiter",
+    "warehouse_staff": "Lagermitarbeiter",
+    "customer_support": "Kundendienst",
+    "customer": "Kunde"
+  },
+  "filters": {
+    "all_types": "Alle Typen"
+  },
+  "messages": {
+    "updated": "Benutzer aktualisiert",
+    "status_updated": "Status geändert",
+    "role_updated": "Rolle aktualisiert",
+    "activated": "Benutzer aktiviert",
+    "deactivated": "Benutzer deaktiviert",
+    "roles_updated": "Rollen aktualisiert",
+    "status_error": "Fehler beim Statuswechsel",
+    "save_error": "Fehler beim Speichern"
+  },
+  "total": "{{count}} Benutzer gesamt",
+  "detail": {
+    "profile_card": "Profil",
+    "system_card": "Systeminfo",
+    "change_role": "Rolle ändern",
+    "not_found": "Benutzer nicht gefunden.",
+    "assign_role_title": "Rolle zuweisen",
+    "id_label": "ID",
+    "created_label": "Erstellt",
+    "updated_label": "Aktualisiert",
+    "store_label": "Filiale",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "back": "Zurück"
+  }
+}

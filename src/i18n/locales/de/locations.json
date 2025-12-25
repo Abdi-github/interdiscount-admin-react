@@ -1,0 +1,36 @@
+{
+  "title": "Standorte",
+  "cantons": {
+    "title": "Kantone",
+    "canton": "Kanton",
+    "create": "Kanton erstellen",
+    "edit": "Kanton bearbeiten",
+    "fields": {
+      "code": "Code",
+      "name": "Name",
+      "is_active": "Aktiv"
+    },
+    "messages": {
+      "created": "Kanton erstellt",
+      "updated": "Kanton aktualisiert",
+      "deleted": "Kanton gelöscht"
+    }
+  },
+  "cities": {
+    "title": "Orte",
+    "city": "Ort",
+    "create": "Ort erstellen",
+    "edit": "Ort bearbeiten",
+    "fields": {
+      "name": "Name",
+      "postal_code": "PLZ",
+      "canton": "Kanton",
+      "is_active": "Aktiv"
+    },
+    "messages": {
+      "created": "Ort erstellt",
+      "updated": "Ort aktualisiert",
+      "deleted": "Ort gelöscht"
+    }
+  }
+}

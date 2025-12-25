@@ -1,0 +1,57 @@
+{
+  "title": "Einstellungen",
+  "tabs": {
+    "profile": "Profil",
+    "security": "Sicherheit",
+    "preferences": "Einstellungen",
+    "appearance": "Darstellung"
+  },
+  "profile": {
+    "title": "Profil bearbeiten",
+    "subtitle": "Persönliche Informationen aktualisieren",
+    "fields": {
+      "first_name": "Vorname",
+      "last_name": "Nachname",
+      "email": "E-Mail",
+      "phone": "Telefon",
+      "language": "Sprache"
+    },
+    "messages": {
+      "updated": "Profil aktualisiert"
+    },
+    "save_btn": "Speichern",
+    "first_name": "Vorname",
+    "last_name": "Nachname"
+  },
+  "security": {
+    "title": "Sicherheit",
+    "password_reset": "Passwort zurücksetzen",
+    "password_reset_description": "Senden Sie sich einen Passwort-Zurücksetzen-Link per E-Mail",
+    "send_reset_link": "Link senden",
+    "messages": {
+      "reset_sent": "Passwort-Zurücksetzen-Link gesendet"
+    },
+    "card_subtitle": "Sicherheit Ihres Kontos verwalten",
+    "reset_info": "Passwortänderungen erfolgen über den sicheren E-Mail-Reset-Prozess. Sie werden abgemeldet und zur Passwortzurücksetzen-Seite weitergeleitet."
+  },
+  "language": {
+    "de": "Deutsch",
+    "en": "English",
+    "fr": "Français",
+    "it": "Italiano"
+  },
+  "appearance": {
+    "title": "Darstellung",
+    "subtitle": "Aussehen anpassen",
+    "color_mode": "Farbschema",
+    "dark_mode": "Dunkelmodus aktiv",
+    "light_mode": "Hellmodus aktiv",
+    "language_label": "Oberflächensprache",
+    "color_mode_hint": "Du kannst das Farbschema auch jederzeit über das Symbol in der Menüleiste wechseln.",
+    "language_hint": "Ändert die Sprache der Benutzeroberfläche sofort. Die bevorzugte Sprache des Profils wird separat gespeichert."
+  },
+  "validation": {
+    "min_2": "Mindestens 2 Zeichen",
+    "email_invalid": "Ungültige E-Mail-Adresse"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "title": "Negozi",
+  "store": "Negozio",
+  "create": "Crea negozio",
+  "edit": "Modifica negozio",
+  "fields": {
+    "name": "Nome",
+    "store_id": "N° negozio",
+    "street": "Via",
+    "postal_code": "CAP",
+    "city": "Città",
+    "canton": "Cantone",
+    "phone": "Telefono",
+    "email": "E-mail",
+    "is_active": "Attivo",
+    "format": "Formato",
+    "opening_hours": "Orari di apertura"
+  },
+  "messages": {
+    "created": "Negozio creato",
+    "updated": "Negozio aggiornato",
+    "deleted": "Negozio eliminato",
+    "activated": "Negozio attivato",
+    "deactivated": "Negozio disattivato",
+    "update_error": "Errore durante l'aggiornamento",
+    "not_found": "Negozio non trovato.",
+    "status_updated": "Stato aggiornato"
+  },
+  "total": "{{count}} negozi in totale",
+  "create_subtitle": "Aggiungi nuovo negozio",
+  "tabs": {
+    "details": "Dettagli",
+    "overview": "Panoramica",
+    "staff": "Personale",
+    "inventory": "Inventario"
+  },
+  "staff_section": {
+    "assign_btn": "Assegna personale",
+    "remove_btn": "Rimuovi",
+    "empty": "Nessun personale assegnato.",
+    "col_name": "Nome",
+    "col_email": "E-mail",
+    "col_role": "Ruolo",
+    "col_status": "Stato",
+    "assigned": "Personale aggiornato",
+    "removed": "Personale rimosso"
+  },
+  "assign_dialog": {
+    "title": "Assegna personale",
+    "search_placeholder": "Cerca utenti…",
+    "current_title": "Personale attuale",
+    "available_title": "Utenti disponibili",
+    "save_btn": "Salva",
+    "empty_available": "Nessun altro utente trovato."
+  },
+  "inventory_section": {
+    "col_product": "Prodotto",
+    "col_code": "Art. n.",
+    "col_qty": "Scorte",
+    "col_reserved": "Riservato",
+    "col_available": "Disponibile",
+    "col_min": "Min.",
+    "col_location": "Posizione",
+    "col_status": "Stato",
+    "low_stock": "Scorte basse",
+    "out_of_stock": "Esaurito",
+    "available": "Disponibile",
+    "empty": "Nessun dato di inventario."
+  },
+  "detail": {
+    "info_card": "Informazioni",
+    "store_id_label": "ID negozio",
+    "format_label": "Formato",
+    "address_label": "Indirizzo",
+    "phone_label": "Telefono",
+    "email_label": "Email",
+    "status_label": "Stato",
+    "active": "Attivo",
+    "inactive": "Inattivo"
+  },
+  "form": {
+    "store_data_card": "Dati negozio",
+    "contact_card": "Contatto",
+    "hours_card": "Orari di apertura",
+    "hours_subheader": "Formato: HH:MM (es. 09:00, 18:30)",
+    "store_name": "Nome negozio",
+    "street": "Via",
+    "street_number": "N.",
+    "postal_code": "CAP",
+    "canton": "Cantone",
+    "city": "Città",
+    "phone": "Telefono",
+    "email": "Email",
+    "day_col": "Giorno",
+    "open_col": "Apertura",
+    "close_col": "Chiusura",
+    "closed_col": "Chiuso",
+    "active_label": "Negozio attivo",
+    "save": "Salva",
+    "city_required": "La città è obbligatoria",
+    "canton_required": "Il cantone è obbligatorio",
+    "email_invalid": "Email non valida"
+  },
+  "days": {
+    "monday": "Lunedì",
+    "tuesday": "Martedì",
+    "wednesday": "Mercoledì",
+    "thursday": "Giovedì",
+    "friday": "Venerdì",
+    "saturday": "Sabato",
+    "sunday": "Domenica"
+  },
+  "format": {
+    "standard": "Standard",
+    "xxl": "XXL",
+    "compact": "Compact"
+  },
+  "staff": "Personale",
+  "inventory": "Inventario"
+}

@@ -1,0 +1,1 @@
+{ "title": "Brands", "brand": "Brand", "create": "Create Brand", "edit": "Edit Brand", "fields": { "name": "Name", "slug": "Slug", "logo_url": "Logo URL", "is_active": "Active" }, "messages": { "created": "Brand created", "updated": "Brand updated", "deleted": "Brand deleted" }, "total": "{{count}} brands total" }

@@ -1,0 +1,52 @@
+{
+  "title": "Promotions",
+  "promotion": "Promotion",
+  "create": "Créer une promotion",
+  "edit": "Modifier la promotion",
+  "fields": {
+    "name": "Nom",
+    "type": "Type",
+    "value": "Valeur",
+    "start_date": "Date de début",
+    "end_date": "Date de fin",
+    "is_active": "Actif",
+    "buy_quantity": "Quantité achetée",
+    "get_quantity": "Quantité gratuite"
+  },
+  "type": {
+    "PERCENTAGE": "Pourcentage",
+    "FIXED_AMOUNT": "Montant fixe",
+    "BUY_X_GET_Y": "Achetez X, obtenez Y",
+    "percentage": "Remise en pourcentage",
+    "fixed": "Montant fixe (CHF)",
+    "buy_x_get_y": "Achetez X, obtenez Y"
+  },
+  "messages": {
+    "created": "Promotion créée",
+    "updated": "Promotion mise à jour",
+    "deleted": "Promotion supprimée",
+    "create_error": "Erreur lors de la création",
+    "update_error": "Erreur lors de la mise à jour"
+  },
+  "total": "{{count}} promotions au total",
+  "create_subtitle": "Ajouter une nouvelle promotion",
+  "form": {
+    "details_card": "Détails de la promotion",
+    "validity_card": "Validité",
+    "title_field": "Titre",
+    "description_field": "Description",
+    "type_field": "Type",
+    "value_field": "Valeur",
+    "buy_x_label": "Acheter X",
+    "get_y_label": "Obtenir Y",
+    "start_date": "Date de début",
+    "end_date": "Date de fin",
+    "activate_label": "Activer la promotion immédiatement",
+    "active_label": "Promotion active"
+  },
+  "update_btn": "Mettre à jour",
+  "detail": {
+    "not_found": "Données de promotion non disponibles. Veuillez naviguer via la liste des promotions.",
+    "back": "Retour à la liste"
+  }
+}

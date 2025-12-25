@@ -1,0 +1,63 @@
+{
+  "title": "Dashboard",
+  "stats": {
+    "total_revenue": "Total Revenue",
+    "total_orders": "Orders",
+    "total_products": "Products",
+    "total_users": "Users",
+    "total_stores": "Stores",
+    "active_products": "Active Products",
+    "pending_orders": "Pending Orders",
+    "new_users_today": "New Users Today",
+    "reviews": "Reviews",
+    "customers_suffix": "{{count}} customers",
+    "active_suffix": "{{count}} active",
+    "pending_suffix": "{{count}} pending"
+  },
+  "charts": {
+    "revenue": "Revenue",
+    "orders": "Orders",
+    "users": "Users",
+    "revenue_over_time": "Revenue Over Time",
+    "orders_over_time": "Orders Over Time",
+    "top_products": "Top Products",
+    "top_categories": "Top Categories",
+    "top_stores": "Top Stores",
+    "period_week": "7D",
+    "period_month": "30D",
+    "period_year": "1Y",
+    "no_data": "No data for this period"
+  },
+  "recent_orders": "Recent Orders",
+  "no_data": "No data available",
+  "recent_orders_col": {
+    "order": "Order",
+    "customer": "Customer",
+    "status": "Status",
+    "amount": "Amount",
+    "date": "Date"
+  },
+  "revenue_trend": "Revenue Trend",
+  "recent_orders_show_all": "Show all",
+  "recent_orders_empty": "No orders found",
+  "store": {
+    "revenue": "Revenue",
+    "orders_today": "Orders Today",
+    "pending_suffix": "{{count}} pending",
+    "pickup_ready": "Pickup Ready",
+    "inventory": "Inventory",
+    "low_stock_suffix": "{{count}} low stock",
+    "pickup_status": "Pickup Status",
+    "pickups_total": "{{count}} pickups total",
+    "pickup_pending": "Pending",
+    "pickup_confirmed": "Confirmed",
+    "pickup_ready_label": "Ready for Pickup",
+    "pickup_overdue": "Overdue",
+    "pickup_collected": "Collected today",
+    "revenue_chart": "Store Revenue Trend",
+    "top_products": "Top Selling Products",
+    "col_product": "Product",
+    "col_qty_sold": "Units Sold",
+    "col_revenue": "Revenue"
+  }
+}

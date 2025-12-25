@@ -1,0 +1,35 @@
+{
+  "title": "Analisi",
+  "filters": {
+    "date_range": "Periodo",
+    "from": "Dal",
+    "to": "Al",
+    "last_7_days": "Ultimi 7 giorni",
+    "last_30_days": "Ultimi 30 giorni",
+    "last_90_days": "Ultimi 90 giorni",
+    "this_year": "Quest'anno"
+  },
+  "metrics": {
+    "revenue": "Entrate",
+    "orders": "Ordini",
+    "avg_order_value": "Valore medio",
+    "conversion_rate": "Tasso di conversione",
+    "new_users": "Nuovi utenti",
+    "active_users": "Utenti attivi"
+  },
+  "charts": {
+    "revenue_trend": "Andamento entrate",
+    "order_trend": "Andamento ordini",
+    "top_products": "Prodotti principali",
+    "top_stores": "Negozi principali",
+    "top_categories": "Categorie principali",
+    "user_growth": "Crescita utenti",
+    "top_products_subtitle": "Per fatturato",
+    "top_stores_subtitle": "Per fatturato nel periodo",
+    "top_categories_subtitle": "Per fatturato nel periodo",
+    "user_growth_subtitle": "Nuove registrazioni"
+  },
+  "no_data": "Nessun dato disponibile",
+  "no_data_period": "Nessun dato per questo periodo",
+  "new_users": "Nuovi utenti"
+}

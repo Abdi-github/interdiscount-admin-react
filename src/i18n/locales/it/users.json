@@ -1,0 +1,53 @@
+{
+  "title": "Utenti",
+  "user": "Utente",
+  "fields": {
+    "name": "Nome",
+    "email": "E-mail",
+    "role": "Ruolo",
+    "status": "Stato",
+    "verified": "Verificato",
+    "created": "Creato",
+    "user_type": "Tipo utente",
+    "first_name": "Nome",
+    "last_name": "Cognome",
+    "phone": "Telefono",
+    "language": "Lingua"
+  },
+  "roles": {
+    "super_admin": "Super Admin",
+    "admin": "Admin",
+    "store_manager": "Responsabile negozio",
+    "warehouse_staff": "Addetto magazzino",
+    "customer_support": "Assistenza clienti",
+    "customer": "Cliente"
+  },
+  "filters": {
+    "all_types": "Tutti i tipi"
+  },
+  "messages": {
+    "updated": "Utente aggiornato",
+    "status_updated": "Stato aggiornato",
+    "role_updated": "Ruolo aggiornato",
+    "activated": "Utente attivato",
+    "deactivated": "Utente disattivato",
+    "roles_updated": "Ruoli aggiornati",
+    "status_error": "Errore nel cambio di stato",
+    "save_error": "Errore durante il salvataggio"
+  },
+  "total": "{{count}} utenti in totale",
+  "detail": {
+    "profile_card": "Profilo",
+    "system_card": "Info sistema",
+    "change_role": "Cambia ruolo",
+    "not_found": "Utente non trovato.",
+    "assign_role_title": "Assegna ruolo",
+    "id_label": "ID",
+    "created_label": "Creato",
+    "updated_label": "Aggiornato",
+    "store_label": "Negozio",
+    "active": "Attivo",
+    "inactive": "Inattivo",
+    "back": "Indietro"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "title": "Produkte",
+  "product": "Produkt",
+  "create": "Produkt erstellen",
+  "edit": "Produkt bearbeiten",
+  "fields": {
+    "name": "Produktname",
+    "name_short": "Kurzname",
+    "code": "Artikelnummer",
+    "price": "Preis",
+    "original_price": "Ursprungspreis",
+    "category": "Kategorie",
+    "brand": "Marke",
+    "status": "Status",
+    "delivery_days": "Liefertage",
+    "in_store": "In Filiale abholbar",
+    "description": "Beschreibung",
+    "specification": "Spezifikationen",
+    "rating": "Bewertung",
+    "actions": "Aktionen"
+  },
+  "status": {
+    "PUBLISHED": "Veröffentlicht",
+    "DRAFT": "Entwurf",
+    "ARCHIVED": "Archiviert",
+    "INACTIVE": "Inaktiv"
+  },
+  "availability": {
+    "AVAILABLE": "Verfügbar",
+    "LOW_STOCK": "Geringer Bestand",
+    "OUT_OF_STOCK": "Nicht verfügbar",
+    "PREORDER": "Vorbestellung",
+    "DISCONTINUED": "Eingestellt"
+  },
+  "form": {
+    "product_info": "Produktinformation",
+    "pricing": "Preisgestaltung",
+    "details_delivery": "Details & Lieferung",
+    "specifications": "Spezifikationen",
+    "category_empty": "-- Kategorie wählen --",
+    "brand_empty": "-- Keine Marke --",
+    "spec_label": "Spezifikationen (JSON oder Text)"
+  },
+  "images": {
+    "title": "Produktbilder",
+    "card_subheader": "{{count}} von {{max}} Bildern hochgeladen",
+    "saved": "Gespeicherte Bilder",
+    "pending_uploads": "Ausstehende Uploads ({{count}})",
+    "select_btn": "Bilder auswählen",
+    "upload_btn_one": "{{count}} Bild hochladen",
+    "upload_btn_other": "{{count}} Bilder hochladen",
+    "discard_btn": "Verwerfen",
+    "uploading": "Wird hochgeladen…",
+    "click_to_upload": "Klicken zum Hochladen · JPEG, PNG, WebP · max. {{max}} Bilder",
+    "delete_tooltip": "Bild löschen",
+    "remove": "Entfernen"
+  },
+  "messages": {
+    "created": "Produkt erstellt",
+    "created_redirect": "Produkt erstellt – jetzt Bilder hochladen",
+    "updated": "Produkt aktualisiert",
+    "deleted": "Produkt gelöscht",
+    "status_updated": "Status aktualisiert",
+    "image_uploaded": "Bild hochgeladen",
+    "image_deleted": "Bild gelöscht",
+    "image_type_error": "Nur JPEG, PNG und WebP sind erlaubt.",
+    "image_max_error": "Maximal {{max}} Bilder pro Produkt. Noch {{remaining}} möglich."
+  },
+  "create_subtitle": "Neues Produkt hinzufügen",
+  "total": "{{count}} Produkte gesamt"
+}

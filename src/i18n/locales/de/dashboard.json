@@ -1,0 +1,63 @@
+{
+  "title": "Dashboard",
+  "stats": {
+    "total_revenue": "Gesamtumsatz",
+    "total_orders": "Bestellungen",
+    "total_products": "Produkte",
+    "total_users": "Benutzer",
+    "total_stores": "Filialen",
+    "active_products": "Aktive Produkte",
+    "pending_orders": "Offene Bestellungen",
+    "new_users_today": "Neue Benutzer heute",
+    "reviews": "Bewertungen",
+    "customers_suffix": "{{count}} Kunden",
+    "active_suffix": "{{count}} aktiv",
+    "pending_suffix": "{{count}} ausstehend"
+  },
+  "charts": {
+    "revenue": "Umsatz",
+    "orders": "Bestellungen",
+    "users": "Benutzer",
+    "revenue_over_time": "Umsatzverlauf",
+    "orders_over_time": "Bestellungsverlauf",
+    "top_products": "Meistverkaufte Produkte",
+    "top_categories": "Top-Kategorien",
+    "top_stores": "Top-Filialen",
+    "period_week": "7T",
+    "period_month": "30T",
+    "period_year": "1J",
+    "no_data": "Keine Daten für diesen Zeitraum"
+  },
+  "recent_orders": "Letzte Bestellungen",
+  "no_data": "Keine Daten verfügbar",
+  "recent_orders_col": {
+    "order": "Bestellung",
+    "customer": "Kunde",
+    "status": "Status",
+    "amount": "Betrag",
+    "date": "Datum"
+  },
+  "revenue_trend": "Umsatzverlauf",
+  "recent_orders_show_all": "Alle anzeigen",
+  "recent_orders_empty": "Keine Bestellungen vorhanden",
+  "store": {
+    "revenue": "Umsatz",
+    "orders_today": "Bestellungen heute",
+    "pending_suffix": "{{count}} ausstehend",
+    "pickup_ready": "Abholung bereit",
+    "inventory": "Inventar",
+    "low_stock_suffix": "{{count}} niedriger Bestand",
+    "pickup_status": "Abholstatus",
+    "pickups_total": "{{count}} Abholungen gesamt",
+    "pickup_pending": "Ausstehend",
+    "pickup_confirmed": "Bestätigt",
+    "pickup_ready_label": "Bereit zur Abholung",
+    "pickup_overdue": "Überfällig",
+    "pickup_collected": "Heute abgeholt",
+    "revenue_chart": "Filial-Umsatzverlauf",
+    "top_products": "Meistverkaufte Produkte",
+    "col_product": "Produkt",
+    "col_qty_sold": "Verkaufte Einheiten",
+    "col_revenue": "Umsatz"
+  }
+}

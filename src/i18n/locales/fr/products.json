@@ -1,0 +1,71 @@
+{
+  "title": "Produits",
+  "product": "Produit",
+  "create": "Créer un produit",
+  "edit": "Modifier le produit",
+  "fields": {
+    "name": "Nom du produit",
+    "name_short": "Nom court",
+    "code": "Référence",
+    "price": "Prix",
+    "original_price": "Prix original",
+    "category": "Catégorie",
+    "brand": "Marque",
+    "status": "Statut",
+    "delivery_days": "Jours de livraison",
+    "in_store": "Disponible en magasin",
+    "description": "Description",
+    "specification": "Spécifications",
+    "rating": "Note",
+    "actions": "Actions"
+  },
+  "status": {
+    "PUBLISHED": "Publié",
+    "DRAFT": "Brouillon",
+    "ARCHIVED": "Archivé",
+    "INACTIVE": "Inactif"
+  },
+  "messages": {
+    "created": "Produit créé",
+    "updated": "Produit mis à jour",
+    "deleted": "Produit supprimé",
+    "status_updated": "Statut mis à jour",
+    "image_uploaded": "Image téléchargée",
+    "image_deleted": "Image supprimée",
+    "image_type_error": "Seuls JPEG, PNG et WebP sont autorisés.",
+    "image_max_error": "Maximum {{max}} images par produit. Il reste {{remaining}}.",
+    "created_redirect": "Produit créé – téléchargez les images"
+  },
+  "total": "{{count}} produits au total",
+  "form": {
+    "product_info": "Informations produit",
+    "pricing": "Tarification",
+    "details_delivery": "Détails & Livraison",
+    "specifications": "Spécifications",
+    "category_empty": "-- Choisir une catégorie --",
+    "brand_empty": "-- Aucune marque --",
+    "spec_label": "Spécifications (JSON ou texte)"
+  },
+  "images": {
+    "title": "Images du produit",
+    "card_subheader": "{{count}} sur {{max}} images téléchargées",
+    "saved": "Images enregistrées",
+    "pending_uploads": "Téléchargements en attente ({{count}})",
+    "select_btn": "Sélectionner des images",
+    "upload_btn_one": "Télécharger {{count}} image",
+    "upload_btn_other": "Télécharger {{count}} images",
+    "discard_btn": "Annuler",
+    "uploading": "Téléchargement…",
+    "click_to_upload": "Cliquer pour télécharger · JPEG, PNG, WebP · max. {{max}} images",
+    "delete_tooltip": "Supprimer l'image",
+    "remove": "Retirer"
+  },
+  "create_subtitle": "Ajouter un nouveau produit",
+  "availability": {
+    "AVAILABLE": "Disponible",
+    "DISCONTINUED": "Discontinué",
+    "LOW_STOCK": "Stock faible",
+    "OUT_OF_STOCK": "Rupture de stock",
+    "PREORDER": "Précommande"
+  }
+}

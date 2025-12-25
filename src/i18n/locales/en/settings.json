@@ -1,0 +1,57 @@
+{
+  "title": "Settings",
+  "tabs": {
+    "profile": "Profile",
+    "security": "Security",
+    "preferences": "Preferences",
+    "appearance": "Appearance"
+  },
+  "profile": {
+    "title": "Edit Profile",
+    "subtitle": "Update personal information",
+    "fields": {
+      "first_name": "First Name",
+      "last_name": "Last Name",
+      "email": "Email",
+      "phone": "Phone",
+      "language": "Language"
+    },
+    "messages": {
+      "updated": "Profile updated"
+    },
+    "save_btn": "Save",
+    "first_name": "First Name",
+    "last_name": "Last Name"
+  },
+  "security": {
+    "title": "Security",
+    "password_reset": "Reset Password",
+    "password_reset_description": "Send yourself a password reset link by email",
+    "send_reset_link": "Send Link",
+    "messages": {
+      "reset_sent": "Password reset link sent"
+    },
+    "card_subtitle": "Manage your account security",
+    "reset_info": "Password changes are done via the secure email reset process. You will be logged out and redirected to the password reset page."
+  },
+  "language": {
+    "de": "Deutsch",
+    "en": "English",
+    "fr": "Français",
+    "it": "Italiano"
+  },
+  "appearance": {
+    "title": "Appearance",
+    "subtitle": "Customize appearance",
+    "color_mode": "Color mode",
+    "dark_mode": "Dark mode active",
+    "light_mode": "Light mode active",
+    "language_label": "Interface language",
+    "color_mode_hint": "You can also toggle the color mode anytime via the icon in the toolbar.",
+    "language_hint": "Changes the UI language immediately. The profile language preference is saved separately."
+  },
+  "validation": {
+    "min_2": "Minimum 2 characters",
+    "email_invalid": "Invalid email address"
+  }
+}

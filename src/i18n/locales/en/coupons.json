@@ -1,0 +1,50 @@
+{
+  "title": "Coupons",
+  "coupon": "Coupon",
+  "create": "Create Coupon",
+  "edit": "Edit Coupon",
+  "fields": {
+    "code": "Code",
+    "type": "Type",
+    "value": "Value",
+    "min_order_amount": "Min Order Amount",
+    "max_uses": "Max Uses",
+    "uses_count": "Used",
+    "valid_from": "Valid From",
+    "valid_until": "Valid Until",
+    "is_active": "Active"
+  },
+  "type": {
+    "PERCENTAGE": "Percentage",
+    "FIXED_AMOUNT": "Fixed Amount"
+  },
+  "messages": {
+    "created": "Coupon created",
+    "updated": "Coupon updated",
+    "deleted": "Coupon deleted",
+    "create_error": "Error creating coupon"
+  },
+  "total": "{{count}} coupons total",
+  "create_subtitle": "Add new discount code",
+  "form": {
+    "details_card": "Coupon Details",
+    "validity_card": "Validity",
+    "description_card": "Description",
+    "description_subheader": "Optional — shown to customers",
+    "code_label": "Coupon Code *",
+    "code_hint": "Uppercase letters, numbers, - and _ only",
+    "discount_type_label": "Discount Type",
+    "discount_value_label": "Discount Value *",
+    "min_order_label": "Min. Order Amount (optional)",
+    "max_uses_label": "Max. Uses (optional)",
+    "valid_from_label": "Valid From *",
+    "valid_until_label": "Valid Until *",
+    "active_label": "Coupon active",
+    "desc_de_label": "Description (German)",
+    "desc_en_label": "Description (English)",
+    "type_percentage": "Percentage (%)",
+    "type_fixed": "Fixed Amount (CHF)",
+    "save_btn": "Save Changes",
+    "create_btn": "Create Coupon"
+  }
+}

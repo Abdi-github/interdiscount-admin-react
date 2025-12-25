@@ -1,0 +1,120 @@
+{
+  "title": "Filialen",
+  "store": "Filiale",
+  "create": "Filiale erstellen",
+  "edit": "Filiale bearbeiten",
+  "fields": {
+    "name": "Name",
+    "store_id": "Filial-Nr.",
+    "street": "Strasse",
+    "postal_code": "PLZ",
+    "city": "Ort",
+    "canton": "Kanton",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "format": "Format",
+    "opening_hours": "Öffnungszeiten",
+    "is_active": "Aktiv"
+  },
+  "format": {
+    "standard": "Standard",
+    "xxl": "XXL",
+    "compact": "Compact"
+  },
+  "messages": {
+    "created": "Filiale erstellt",
+    "updated": "Filiale aktualisiert",
+    "deleted": "Filiale gelöscht",
+    "status_updated": "Status aktualisiert",
+    "activated": "Filiale aktiviert",
+    "deactivated": "Filiale deaktiviert",
+    "update_error": "Fehler beim Aktualisieren",
+    "not_found": "Filiale nicht gefunden."
+  },
+  "total": "{{count}} Filialen gesamt",
+  "staff": "Personal",
+  "inventory": "Inventar",
+  "create_subtitle": "Neue Filiale hinzufügen",
+  "tabs": {
+    "details": "Details",
+    "overview": "Übersicht",
+    "staff": "Personal",
+    "inventory": "Inventar"
+  },
+  "staff_section": {
+    "assign_btn": "Personal zuweisen",
+    "remove_btn": "Entfernen",
+    "empty": "Kein Personal zugewiesen.",
+    "col_name": "Name",
+    "col_email": "E-Mail",
+    "col_role": "Rolle",
+    "col_status": "Status",
+    "assigned": "Personal aktualisiert",
+    "removed": "Personal entfernt"
+  },
+  "assign_dialog": {
+    "title": "Personal zuweisen",
+    "search_placeholder": "Benutzer suchen…",
+    "current_title": "Aktuelles Personal",
+    "available_title": "Verfügbare Benutzer",
+    "save_btn": "Speichern",
+    "empty_available": "Keine weiteren Benutzer gefunden."
+  },
+  "inventory_section": {
+    "col_product": "Produkt",
+    "col_code": "Art.-Nr.",
+    "col_qty": "Bestand",
+    "col_reserved": "Reserviert",
+    "col_available": "Verfügbar",
+    "col_min": "Min.",
+    "col_location": "Lagerort",
+    "col_status": "Status",
+    "low_stock": "Tiefer Bestand",
+    "out_of_stock": "Nicht verfügbar",
+    "available": "Verfügbar",
+    "empty": "Keine Inventardaten."
+  },
+  "detail": {
+    "info_card": "Informationen",
+    "store_id_label": "Filial-ID",
+    "format_label": "Format",
+    "address_label": "Adresse",
+    "phone_label": "Telefon",
+    "email_label": "E-Mail",
+    "status_label": "Status",
+    "active": "Aktiv",
+    "inactive": "Inaktiv"
+  },
+  "form": {
+    "store_data_card": "Filialdaten",
+    "contact_card": "Kontakt",
+    "hours_card": "Öffnungszeiten",
+    "hours_subheader": "Format: HH:MM (z.B. 09:00, 18:30)",
+    "store_name": "Filialname",
+    "street": "Strasse",
+    "street_number": "Nr.",
+    "postal_code": "PLZ",
+    "canton": "Kanton",
+    "city": "Stadt",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "day_col": "Tag",
+    "open_col": "Öffnung",
+    "close_col": "Schliessung",
+    "closed_col": "Geschlossen",
+    "active_label": "Filiale aktiv",
+    "save": "Speichern",
+    "city_required": "Stadt ist erforderlich",
+    "canton_required": "Kanton ist erforderlich",
+    "email_invalid": "Ungültige E-Mail"
+  },
+  "days": {
+    "monday": "Montag",
+    "tuesday": "Dienstag",
+    "wednesday": "Mittwoch",
+    "thursday": "Donnerstag",
+    "friday": "Freitag",
+    "saturday": "Samstag",
+    "sunday": "Sonntag"
+  }
+}

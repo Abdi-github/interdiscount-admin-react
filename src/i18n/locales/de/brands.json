@@ -1,0 +1,18 @@
+{
+  "title": "Marken",
+  "brand": "Marke",
+  "create": "Marke erstellen",
+  "edit": "Marke bearbeiten",
+  "fields": {
+    "name": "Name",
+    "slug": "Slug",
+    "logo_url": "Logo-URL",
+    "is_active": "Aktiv"
+  },
+  "messages": {
+    "created": "Marke erstellt",
+    "updated": "Marke aktualisiert",
+    "deleted": "Marke gelöscht"
+  },
+  "total": "{{count}} Marken gesamt"
+}

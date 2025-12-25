@@ -1,0 +1,63 @@
+{
+  "title": "Dashboard",
+  "stats": {
+    "total_revenue": "Entrate totali",
+    "total_orders": "Ordini",
+    "total_products": "Prodotti",
+    "total_users": "Utenti",
+    "total_stores": "Negozi",
+    "active_products": "Prodotti attivi",
+    "pending_orders": "Ordini in attesa",
+    "new_users_today": "Nuovi utenti oggi",
+    "reviews": "Valutazioni",
+    "customers_suffix": "{{count}} clienti",
+    "active_suffix": "{{count}} attivi",
+    "pending_suffix": "{{count}} in attesa"
+  },
+  "charts": {
+    "revenue": "Entrate",
+    "orders": "Ordini",
+    "users": "Utenti",
+    "revenue_over_time": "Entrate nel tempo",
+    "orders_over_time": "Ordini nel tempo",
+    "top_products": "Prodotti più venduti",
+    "top_categories": "Categorie principali",
+    "top_stores": "Negozi principali",
+    "period_week": "7G",
+    "period_month": "30G",
+    "period_year": "1A",
+    "no_data": "Nessun dato per questo periodo"
+  },
+  "recent_orders": "Ordini recenti",
+  "no_data": "Nessun dato disponibile",
+  "recent_orders_col": {
+    "order": "Ordine",
+    "customer": "Cliente",
+    "status": "Stato",
+    "amount": "Importo",
+    "date": "Data"
+  },
+  "revenue_trend": "Andamento fatturato",
+  "recent_orders_show_all": "Mostra tutti",
+  "recent_orders_empty": "Nessun ordine",
+  "store": {
+    "revenue": "Entrate",
+    "orders_today": "Ordini oggi",
+    "pending_suffix": "{{count}} in attesa",
+    "pickup_ready": "Pronto al ritiro",
+    "inventory": "Inventario",
+    "low_stock_suffix": "{{count}} scorte basse",
+    "pickup_status": "Stato ritiro",
+    "pickups_total": "{{count}} ritiri totali",
+    "pickup_pending": "In attesa",
+    "pickup_confirmed": "Confermato",
+    "pickup_ready_label": "Pronto al ritiro",
+    "pickup_overdue": "In ritardo",
+    "pickup_collected": "Ritirati oggi",
+    "revenue_chart": "Andamento del fatturato",
+    "top_products": "Prodotti più venduti",
+    "col_product": "Prodotto",
+    "col_qty_sold": "Unità vendute",
+    "col_revenue": "Fatturato"
+  }
+}

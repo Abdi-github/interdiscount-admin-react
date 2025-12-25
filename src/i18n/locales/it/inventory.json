@@ -1,0 +1,27 @@
+{
+  "title": "Inventario",
+  "fields": {
+    "product": "Prodotto",
+    "quantity": "Scorte",
+    "reserved": "Riservato",
+    "available": "Disponibile",
+    "min_stock": "Scorte minime",
+    "max_stock": "Scorte massime",
+    "location": "Posizione",
+    "last_restock": "Ultimo rifornimento"
+  },
+  "actions": {
+    "update_stock": "Aggiorna scorte",
+    "bulk_update": "Aggiornamento in blocco",
+    "export": "Esporta"
+  },
+  "alerts": {
+    "low_stock": "Scorte basse",
+    "out_of_stock": "Esaurito"
+  },
+  "messages": {
+    "updated": "Scorte aggiornate",
+    "bulk_updated": "Scorte aggiornate in blocco"
+  },
+  "total": "{{count}} articoli in totale"
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Rôles & Permissions",
+  "roles": {
+    "title": "Rôles",
+    "role": "Rôle",
+    "create": "Créer un rôle",
+    "fields": {
+      "name": "Nom",
+      "description": "Description",
+      "is_system": "Rôle système"
+    },
+    "messages": {
+      "created": "Rôle créé",
+      "updated": "Rôle mis à jour",
+      "permissions_saved": "Permissions enregistrées",
+      "deleted": "Rôle supprimé"
+    },
+    "edit": "Modifier le rôle"
+  },
+  "permissions": {
+    "title": "Permissions",
+    "all": "Toutes les permissions",
+    "selected": "{{count}} sur {{total}} sélectionnées"
+  },
+  "system_role_warning": "Les rôles système ne peuvent pas être modifiés"
+}

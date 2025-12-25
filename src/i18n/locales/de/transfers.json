@@ -1,0 +1,50 @@
+{
+  "title": "Transfers",
+  "transfer": "Transfer",
+  "create": "Transfer erstellen",
+  "fields": {
+    "transfer_number": "Transfer-Nr.",
+    "from_store": "Von Filiale",
+    "to_store": "Zu Filiale",
+    "status": "Status",
+    "items": "Artikel",
+    "notes": "Notizen",
+    "date": "Datum"
+  },
+  "status": {
+    "REQUESTED": "Angefordert",
+    "APPROVED": "Genehmigt",
+    "IN_TRANSIT": "Unterwegs",
+    "RECEIVED": "Empfangen",
+    "CANCELLED": "Storniert"
+  },
+  "actions": {
+    "approve": "Genehmigen",
+    "reject": "Ablehnen",
+    "ship": "Versenden",
+    "receive": "Empfangen",
+    "cancel": "Stornieren"
+  },
+  "messages": {
+    "created": "Transfer erstellt",
+    "approved": "Transfer genehmigt",
+    "shipped": "Transfer versendet",
+    "received": "Transfer empfangen",
+    "cancelled": "Transfer storniert",
+    "required_store": "Zielfiliale erforderlich",
+    "required_items": "Mindestens ein Artikel erforderlich",
+    "create_error": "Fehler beim Erstellen des Transfers"
+  },
+  "total": "{{count}} Transfers gesamt",
+  "create_subtitle": "Lagerbestand zwischen Filialen übertragen",
+  "form": {
+    "target_store_card": "Zielfiliale",
+    "target_store_label": "Zielfiliale *",
+    "items_card": "Artikel",
+    "product_id_label": "Produkt-ID",
+    "quantity_label": "Menge",
+    "no_items": "Keine Artikel hinzugefügt",
+    "add": "Hinzufügen",
+    "submit": "Transfer erstellen"
+  }
+}

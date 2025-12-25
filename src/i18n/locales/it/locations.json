@@ -1,0 +1,36 @@
+{
+  "title": "Ubicazioni",
+  "cantons": {
+    "title": "Cantoni",
+    "canton": "Cantone",
+    "create": "Crea cantone",
+    "fields": {
+      "code": "Codice",
+      "name": "Nome",
+      "is_active": "Attivo"
+    },
+    "messages": {
+      "created": "Cantone creato",
+      "updated": "Cantone aggiornato",
+      "deleted": "Cantone eliminato"
+    },
+    "edit": "Modifica cantone"
+  },
+  "cities": {
+    "title": "Città",
+    "city": "Città",
+    "create": "Crea città",
+    "fields": {
+      "name": "Nome",
+      "postal_code": "CAP",
+      "canton": "Cantone",
+      "is_active": "Attivo"
+    },
+    "messages": {
+      "created": "Città creata",
+      "updated": "Città aggiornata",
+      "deleted": "Città eliminata"
+    },
+    "edit": "Modifica città"
+  }
+}

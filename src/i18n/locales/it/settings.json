@@ -1,0 +1,57 @@
+{
+  "title": "Impostazioni",
+  "tabs": {
+    "profile": "Profilo",
+    "security": "Sicurezza",
+    "preferences": "Preferenze",
+    "appearance": "Aspetto"
+  },
+  "profile": {
+    "title": "Modifica profilo",
+    "subtitle": "Aggiorna le informazioni personali",
+    "fields": {
+      "first_name": "Nome",
+      "last_name": "Cognome",
+      "email": "E-mail",
+      "phone": "Telefono",
+      "language": "Lingua"
+    },
+    "messages": {
+      "updated": "Profilo aggiornato"
+    },
+    "save_btn": "Salva",
+    "first_name": "Nome",
+    "last_name": "Cognome"
+  },
+  "security": {
+    "title": "Sicurezza",
+    "password_reset": "Reimposta password",
+    "send_reset_link": "Invia link",
+    "messages": {
+      "reset_sent": "Link di reimpostazione inviato"
+    },
+    "card_subtitle": "Gestisci la sicurezza del tuo account",
+    "reset_info": "Le modifiche alla password avvengono tramite il processo sicuro di reimpostazione via e-mail. Verrà disconnesso e reindirizzato alla pagina di reimpostazione.",
+    "password_reset_description": "Inviati un link per reimpostare la password via e-mail"
+  },
+  "language": {
+    "de": "Deutsch",
+    "en": "English",
+    "fr": "Français",
+    "it": "Italiano"
+  },
+  "appearance": {
+    "title": "Aspetto",
+    "subtitle": "Personalizza aspetto",
+    "color_mode": "Modalità colore",
+    "dark_mode": "Modalità scura attiva",
+    "light_mode": "Modalità chiara attiva",
+    "language_label": "Lingua interfaccia",
+    "color_mode_hint": "Puoi cambiare la modalità colore in qualsiasi momento tramite l'icona nella barra degli strumenti.",
+    "language_hint": "Cambia immediatamente la lingua dell'interfaccia. La preferenza linguistica del profilo viene salvata separatamente."
+  },
+  "validation": {
+    "min_2": "Minimo 2 caratteri",
+    "email_invalid": "Indirizzo e-mail non valido"
+  }
+}

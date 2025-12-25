@@ -1,0 +1,26 @@
+{
+  "title": "Ruoli e Permessi",
+  "roles": {
+    "title": "Ruoli",
+    "role": "Ruolo",
+    "create": "Crea ruolo",
+    "fields": {
+      "name": "Nome",
+      "description": "Descrizione",
+      "is_system": "Ruolo di sistema"
+    },
+    "messages": {
+      "created": "Ruolo creato",
+      "updated": "Ruolo aggiornato",
+      "permissions_saved": "Permessi salvati",
+      "deleted": "Ruolo eliminato"
+    },
+    "edit": "Modifica ruolo"
+  },
+  "permissions": {
+    "title": "Permessi",
+    "all": "Tutti i permessi",
+    "selected": "{{count}} di {{total}} selezionati"
+  },
+  "system_role_warning": "I ruoli di sistema non possono essere modificati"
+}

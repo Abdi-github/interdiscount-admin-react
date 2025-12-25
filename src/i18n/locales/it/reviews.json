@@ -1,0 +1,28 @@
+{
+  "title": "Recensioni",
+  "review": "Recensione",
+  "fields": {
+    "product": "Prodotto",
+    "user": "Utente",
+    "rating": "Valutazione",
+    "comment": "Commento",
+    "status": "Stato",
+    "date": "Data"
+  },
+  "actions": {
+    "approve": "Approva",
+    "reject": "Rifiuta",
+    "delete": "Elimina"
+  },
+  "messages": {
+    "approved": "Recensione approvata",
+    "rejected": "Recensione rifiutata",
+    "deleted": "Recensione eliminata"
+  },
+  "total": "{{count}} recensioni in totale",
+  "status": {
+    "approved": "Approvato",
+    "pending": "In attesa",
+    "rejected": "Rifiutato"
+  }
+}

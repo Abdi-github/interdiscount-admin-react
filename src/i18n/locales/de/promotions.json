@@ -1,0 +1,52 @@
+{
+  "title": "Aktionen",
+  "promotion": "Aktion",
+  "create": "Aktion erstellen",
+  "edit": "Aktion bearbeiten",
+  "fields": {
+    "name": "Name",
+    "type": "Typ",
+    "value": "Wert",
+    "buy_quantity": "Kaufmenge",
+    "get_quantity": "Gratismenge",
+    "start_date": "Startdatum",
+    "end_date": "Enddatum",
+    "is_active": "Aktiv"
+  },
+  "type": {
+    "PERCENTAGE": "Prozentsatz",
+    "FIXED_AMOUNT": "Fester Betrag",
+    "BUY_X_GET_Y": "Kaufe X, erhalte Y",
+    "percentage": "Prozentrabatt",
+    "fixed": "Festbetrag (CHF)",
+    "buy_x_get_y": "Kauf X, erhalte Y"
+  },
+  "messages": {
+    "created": "Aktion erstellt",
+    "updated": "Aktion aktualisiert",
+    "deleted": "Aktion gelöscht",
+    "create_error": "Fehler beim Erstellen der Aktion",
+    "update_error": "Fehler beim Aktualisieren der Aktion"
+  },
+  "total": "{{count}} Aktionen gesamt",
+  "create_subtitle": "Neue Store-Aktion hinzufügen",
+  "form": {
+    "details_card": "Aktionsdetails",
+    "validity_card": "Gültigkeit",
+    "title_field": "Titel",
+    "description_field": "Beschreibung",
+    "type_field": "Typ",
+    "value_field": "Wert",
+    "buy_x_label": "Kauf X",
+    "get_y_label": "Erhalte Y",
+    "start_date": "Startdatum",
+    "end_date": "Enddatum",
+    "activate_label": "Aktion sofort aktivieren",
+    "active_label": "Aktion aktiv"
+  },
+  "update_btn": "Aktualisieren",
+  "detail": {
+    "not_found": "Aktionsdaten nicht verfügbar. Bitte navigieren Sie über die Aktionsliste.",
+    "back": "Zurück zur Liste"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "title": "Stores",
+  "store": "Store",
+  "create": "Create Store",
+  "edit": "Edit Store",
+  "fields": {
+    "name": "Name",
+    "store_id": "Store ID",
+    "street": "Street",
+    "postal_code": "Postal Code",
+    "city": "City",
+    "canton": "Canton",
+    "phone": "Phone",
+    "email": "Email",
+    "format": "Format",
+    "opening_hours": "Opening Hours",
+    "is_active": "Active"
+  },
+  "format": {
+    "standard": "Standard",
+    "xxl": "XXL",
+    "compact": "Compact"
+  },
+  "messages": {
+    "created": "Store created",
+    "updated": "Store updated",
+    "deleted": "Store deleted",
+    "status_updated": "Status updated",
+    "activated": "Store activated",
+    "update_error": "Error updating",
+    "not_found": "Store not found.",
+    "deactivated": "Store deactivated"
+  },
+  "total": "{{count}} stores total",
+  "staff": "Staff",
+  "inventory": "Inventory",
+  "create_subtitle": "Add new store",
+  "tabs": {
+    "details": "Details",
+    "overview": "Overview",
+    "staff": "Staff",
+    "inventory": "Inventory"
+  },
+  "staff_section": {
+    "assign_btn": "Assign Staff",
+    "remove_btn": "Remove",
+    "empty": "No staff assigned.",
+    "col_name": "Name",
+    "col_email": "Email",
+    "col_role": "Role",
+    "col_status": "Status",
+    "assigned": "Staff updated",
+    "removed": "Staff removed"
+  },
+  "assign_dialog": {
+    "title": "Assign Staff",
+    "search_placeholder": "Search users…",
+    "current_title": "Current Staff",
+    "available_title": "Available Users",
+    "save_btn": "Save",
+    "empty_available": "No more users found."
+  },
+  "inventory_section": {
+    "col_product": "Product",
+    "col_code": "Article #",
+    "col_qty": "Stock",
+    "col_reserved": "Reserved",
+    "col_available": "Available",
+    "col_min": "Min.",
+    "col_location": "Location",
+    "col_status": "Status",
+    "low_stock": "Low Stock",
+    "out_of_stock": "Out of Stock",
+    "available": "Available",
+    "empty": "No inventory data."
+  },
+  "detail": {
+    "info_card": "Information",
+    "store_id_label": "Store ID",
+    "format_label": "Format",
+    "address_label": "Address",
+    "phone_label": "Phone",
+    "email_label": "Email",
+    "status_label": "Status",
+    "active": "Active",
+    "inactive": "Inactive"
+  },
+  "form": {
+    "store_data_card": "Store Data",
+    "contact_card": "Contact",
+    "hours_card": "Opening Hours",
+    "hours_subheader": "Format: HH:MM (e.g. 09:00, 18:30)",
+    "store_name": "Store Name",
+    "street": "Street",
+    "street_number": "No.",
+    "postal_code": "ZIP Code",
+    "canton": "Canton",
+    "city": "City",
+    "phone": "Phone",
+    "email": "Email",
+    "day_col": "Day",
+    "open_col": "Opening",
+    "close_col": "Closing",
+    "closed_col": "Closed",
+    "active_label": "Store active",
+    "save": "Save",
+    "city_required": "City is required",
+    "canton_required": "Canton is required",
+    "email_invalid": "Invalid email"
+  },
+  "days": {
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday",
+    "sunday": "Sunday"
+  }
+}

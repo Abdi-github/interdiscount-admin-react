@@ -1,0 +1,63 @@
+{
+  "title": "Tableau de bord",
+  "stats": {
+    "total_revenue": "Chiffre d'affaires total",
+    "total_orders": "Commandes",
+    "total_products": "Produits",
+    "total_users": "Utilisateurs",
+    "total_stores": "Magasins",
+    "active_products": "Produits actifs",
+    "pending_orders": "Commandes en attente",
+    "new_users_today": "Nouveaux utilisateurs aujourd'hui",
+    "reviews": "Avis",
+    "customers_suffix": "{{count}} clients",
+    "active_suffix": "{{count}} actif(s)",
+    "pending_suffix": "{{count}} en attente"
+  },
+  "charts": {
+    "revenue": "Chiffre d'affaires",
+    "orders": "Commandes",
+    "users": "Utilisateurs",
+    "revenue_over_time": "Évolution du chiffre d'affaires",
+    "orders_over_time": "Évolution des commandes",
+    "top_products": "Meilleurs produits",
+    "top_categories": "Meilleures catégories",
+    "top_stores": "Meilleurs magasins",
+    "period_week": "7J",
+    "period_month": "30J",
+    "period_year": "1A",
+    "no_data": "Aucune donnée pour cette période"
+  },
+  "recent_orders": "Dernières commandes",
+  "no_data": "Aucune donnée disponible",
+  "recent_orders_col": {
+    "order": "Commande",
+    "customer": "Client",
+    "status": "Statut",
+    "amount": "Montant",
+    "date": "Date"
+  },
+  "revenue_trend": "Évolution du CA",
+  "recent_orders_show_all": "Tout afficher",
+  "recent_orders_empty": "Aucune commande",
+  "store": {
+    "revenue": "Chiffre d'affaires",
+    "orders_today": "Commandes aujourd'hui",
+    "pending_suffix": "{{count}} en attente",
+    "pickup_ready": "Prêt à collecter",
+    "inventory": "Inventaire",
+    "low_stock_suffix": "{{count}} stock faible",
+    "pickup_status": "Statut de collecte",
+    "pickups_total": "{{count}} collectes au total",
+    "pickup_pending": "En attente",
+    "pickup_confirmed": "Confirmé",
+    "pickup_ready_label": "Prêt à collecter",
+    "pickup_overdue": "En retard",
+    "pickup_collected": "Collecté aujourd'hui",
+    "revenue_chart": "Évolution du chiffre d'affaires",
+    "top_products": "Produits les plus vendus",
+    "col_product": "Produit",
+    "col_qty_sold": "Unités vendues",
+    "col_revenue": "Chiffre d'affaires"
+  }
+}

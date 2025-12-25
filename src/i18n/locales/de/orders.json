@@ -1,0 +1,77 @@
+{
+  "title": "Bestellungen",
+  "order": "Bestellung",
+  "fields": {
+    "order_number": "Bestell-Nr.",
+    "customer": "Kunde",
+    "status": "Status",
+    "payment_status": "Zahlungsstatus",
+    "payment_method": "Zahlungsmethode",
+    "total": "Gesamt",
+    "subtotal": "Zwischensumme",
+    "shipping_fee": "Versandkosten",
+    "discount": "Rabatt",
+    "date": "Datum",
+    "items": "Artikel"
+  },
+  "status": {
+    "PLACED": "Aufgegeben",
+    "CONFIRMED": "Bestätigt",
+    "PROCESSING": "In Bearbeitung",
+    "SHIPPED": "Versendet",
+    "DELIVERED": "Geliefert",
+    "READY_FOR_PICKUP": "Abholbereit",
+    "PICKED_UP": "Abgeholt",
+    "CANCELLED": "Storniert",
+    "RETURNED": "Zurückgegeben",
+    "PICKUP_EXPIRED": "Abholung abgelaufen"
+  },
+  "payment_status": {
+    "PENDING": "Ausstehend",
+    "PROCESSING": "In Bearbeitung",
+    "PAID": "Bezahlt",
+    "FAILED": "Fehlgeschlagen",
+    "REFUNDED": "Erstattet"
+  },
+  "messages": {
+    "status_updated": "Status aktualisiert",
+    "export_started": "Export gestartet",
+    "status_error": "Fehler beim Aktualisieren des Status"
+  },
+  "total": "{{count}} Bestellungen gesamt",
+  "pickup": "Abholung in Filiale",
+  "payment_method": {
+    "card": "Kreditkarte",
+    "twint": "TWINT",
+    "postfinance": "PostFinance",
+    "invoice": "Rechnung"
+  },
+  "detail": {
+    "title_prefix": "Bestellung",
+    "created_prefix": "Erstellt am",
+    "not_found": "Bestellung nicht gefunden.",
+    "status_card": "Status",
+    "order_status_label": "Bestellstatus",
+    "payment_status_label": "Zahlungsstatus",
+    "payment_method_label": "Zahlungsart",
+    "order_type_label": "Auftragsart",
+    "store_pickup": "Filialabholung",
+    "delivery": "Lieferung",
+    "cancellation_reason": "Stornierungsgrund",
+    "change_status": "Status ändern",
+    "new_status_label": "Neuer Status",
+    "cancellation_label": "Stornierungsgrund",
+    "update_btn": "Aktualisieren",
+    "confirm_title": "Status aktualisieren",
+    "confirm_msg": "Bestellstatus auf «{{status}}» ändern?",
+    "totals_card": "Betragsübersicht",
+    "notes_card": "Notizen",
+    "items_card": "Bestellpositionen",
+    "no_items": "Keine Positionen vorhanden",
+    "col_product": "Produkt",
+    "col_article_no": "Artikelnummer",
+    "col_unit_price": "Stückpreis",
+    "col_quantity": "Menge",
+    "col_total": "Gesamt"
+  }
+}

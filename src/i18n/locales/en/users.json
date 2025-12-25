@@ -1,0 +1,53 @@
+{
+  "title": "Users",
+  "user": "User",
+  "fields": {
+    "name": "Name",
+    "email": "Email",
+    "role": "Role",
+    "status": "Status",
+    "verified": "Verified",
+    "created": "Created",
+    "user_type": "User Type",
+    "first_name": "First Name",
+    "last_name": "Last Name",
+    "phone": "Phone",
+    "language": "Language"
+  },
+  "roles": {
+    "super_admin": "Super Admin",
+    "admin": "Admin",
+    "store_manager": "Store Manager",
+    "warehouse_staff": "Warehouse Staff",
+    "customer_support": "Customer Support",
+    "customer": "Customer"
+  },
+  "filters": {
+    "all_types": "All Types"
+  },
+  "messages": {
+    "updated": "User updated",
+    "status_updated": "Status updated",
+    "role_updated": "Role updated",
+    "activated": "User activated",
+    "deactivated": "User deactivated",
+    "roles_updated": "Roles updated",
+    "status_error": "Error changing status",
+    "save_error": "Error saving"
+  },
+  "total": "{{count}} users total",
+  "detail": {
+    "profile_card": "Profile",
+    "system_card": "System Info",
+    "change_role": "Change Role",
+    "not_found": "User not found.",
+    "assign_role_title": "Assign Role",
+    "id_label": "ID",
+    "created_label": "Created",
+    "updated_label": "Updated",
+    "store_label": "Store",
+    "active": "Active",
+    "inactive": "Inactive",
+    "back": "Back"
+  }
+}

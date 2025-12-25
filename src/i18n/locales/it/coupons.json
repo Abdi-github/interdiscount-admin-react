@@ -1,0 +1,50 @@
+{
+  "title": "Buoni sconto",
+  "coupon": "Buono sconto",
+  "create": "Crea buono sconto",
+  "edit": "Modifica buono sconto",
+  "fields": {
+    "code": "Codice",
+    "type": "Tipo",
+    "value": "Valore",
+    "valid_from": "Valido dal",
+    "valid_until": "Valido fino al",
+    "is_active": "Attivo",
+    "max_uses": "Utilizzi massimi",
+    "min_order_amount": "Importo minimo",
+    "uses_count": "Utilizzi"
+  },
+  "type": {
+    "PERCENTAGE": "Percentuale",
+    "FIXED_AMOUNT": "Importo fisso"
+  },
+  "messages": {
+    "created": "Buono sconto creato",
+    "updated": "Buono sconto aggiornato",
+    "deleted": "Buono sconto eliminato",
+    "create_error": "Errore durante la creazione del buono sconto"
+  },
+  "total": "{{count}} buoni sconto in totale",
+  "create_subtitle": "Aggiungi nuovo codice sconto",
+  "form": {
+    "details_card": "Dettagli coupon",
+    "validity_card": "Validità",
+    "description_card": "Descrizione",
+    "description_subheader": "Opzionale — mostrato al cliente",
+    "code_label": "Codice coupon *",
+    "code_hint": "Solo lettere maiuscole, numeri, - e _",
+    "discount_type_label": "Tipo di sconto",
+    "discount_value_label": "Valore sconto *",
+    "min_order_label": "Importo minimo ordine (opzionale)",
+    "max_uses_label": "Utilizzi max. (opzionale)",
+    "valid_from_label": "Valido dal *",
+    "valid_until_label": "Valido fino al *",
+    "active_label": "Coupon attivo",
+    "desc_de_label": "Descrizione (tedesco)",
+    "desc_en_label": "Descrizione (inglese)",
+    "type_percentage": "Percentuale (%)",
+    "type_fixed": "Importo fisso (CHF)",
+    "save_btn": "Salva modifiche",
+    "create_btn": "Crea coupon"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "title": "Bewertungen",
+  "review": "Bewertung",
+  "fields": {
+    "product": "Produkt",
+    "user": "Benutzer",
+    "rating": "Bewertung",
+    "comment": "Kommentar",
+    "status": "Status",
+    "date": "Datum"
+  },
+  "status": {
+    "pending": "Ausstehend",
+    "approved": "Genehmigt",
+    "rejected": "Abgelehnt"
+  },
+  "actions": {
+    "approve": "Genehmigen",
+    "reject": "Ablehnen",
+    "delete": "Löschen"
+  },
+  "messages": {
+    "approved": "Bewertung genehmigt",
+    "rejected": "Bewertung abgelehnt",
+    "deleted": "Bewertung gelöscht"
+  },
+  "total": "{{count}} Bewertungen gesamt"
+}

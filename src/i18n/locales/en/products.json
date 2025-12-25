@@ -1,0 +1,71 @@
+{
+  "title": "Products",
+  "product": "Product",
+  "create": "Create Product",
+  "edit": "Edit Product",
+  "fields": {
+    "name": "Product Name",
+    "name_short": "Short Name",
+    "code": "Article #",
+    "price": "Price",
+    "original_price": "Original Price",
+    "category": "Category",
+    "brand": "Brand",
+    "status": "Status",
+    "delivery_days": "Delivery Days",
+    "in_store": "Available In Store",
+    "description": "Description",
+    "specification": "Specifications",
+    "rating": "Rating",
+    "actions": "Actions"
+  },
+  "status": {
+    "PUBLISHED": "Published",
+    "DRAFT": "Draft",
+    "ARCHIVED": "Archived",
+    "INACTIVE": "Inactive"
+  },
+  "availability": {
+    "AVAILABLE": "Available",
+    "LOW_STOCK": "Low Stock",
+    "OUT_OF_STOCK": "Out of Stock",
+    "PREORDER": "Pre-order",
+    "DISCONTINUED": "Discontinued"
+  },
+  "messages": {
+    "created": "Product created",
+    "updated": "Product updated",
+    "deleted": "Product deleted",
+    "status_updated": "Status updated",
+    "image_uploaded": "Image uploaded",
+    "image_deleted": "Image deleted",
+    "image_type_error": "Only JPEG, PNG and WebP are allowed.",
+    "image_max_error": "Maximum {{max}} images per product. {{remaining}} remaining.",
+    "created_redirect": "Product created – upload images now"
+  },
+  "total": "{{count}} products total",
+  "form": {
+    "product_info": "Product Information",
+    "pricing": "Pricing",
+    "details_delivery": "Details & Delivery",
+    "specifications": "Specifications",
+    "category_empty": "-- Choose category --",
+    "brand_empty": "-- No brand --",
+    "spec_label": "Specifications (JSON or text)"
+  },
+  "images": {
+    "title": "Product Images",
+    "card_subheader": "{{count}} of {{max}} images uploaded",
+    "saved": "Saved images",
+    "pending_uploads": "Pending uploads ({{count}})",
+    "select_btn": "Select images",
+    "upload_btn_one": "Upload {{count}} image",
+    "upload_btn_other": "Upload {{count}} images",
+    "discard_btn": "Discard",
+    "uploading": "Uploading…",
+    "click_to_upload": "Click to upload · JPEG, PNG, WebP · max. {{max}} images",
+    "delete_tooltip": "Delete image",
+    "remove": "Remove"
+  },
+  "create_subtitle": "Add new product"
+}

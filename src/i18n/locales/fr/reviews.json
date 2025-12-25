@@ -1,0 +1,28 @@
+{
+  "title": "Avis",
+  "review": "Avis",
+  "fields": {
+    "product": "Produit",
+    "user": "Utilisateur",
+    "rating": "Note",
+    "comment": "Commentaire",
+    "status": "Statut",
+    "date": "Date"
+  },
+  "actions": {
+    "approve": "Approuver",
+    "reject": "Rejeter",
+    "delete": "Supprimer"
+  },
+  "messages": {
+    "approved": "Avis approuvé",
+    "rejected": "Avis rejeté",
+    "deleted": "Avis supprimé"
+  },
+  "total": "{{count}} avis au total",
+  "status": {
+    "approved": "Approuvé",
+    "pending": "En attente",
+    "rejected": "Refusé"
+  }
+}

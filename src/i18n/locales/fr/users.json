@@ -1,0 +1,53 @@
+{
+  "title": "Utilisateurs",
+  "user": "Utilisateur",
+  "fields": {
+    "name": "Nom",
+    "email": "E-mail",
+    "role": "Rôle",
+    "status": "Statut",
+    "verified": "Vérifié",
+    "created": "Créé",
+    "user_type": "Type d'utilisateur",
+    "first_name": "Prénom",
+    "last_name": "Nom",
+    "phone": "Téléphone",
+    "language": "Langue"
+  },
+  "roles": {
+    "super_admin": "Super Admin",
+    "admin": "Admin",
+    "store_manager": "Directeur de magasin",
+    "warehouse_staff": "Employé d'entrepôt",
+    "customer_support": "Service client",
+    "customer": "Client"
+  },
+  "filters": {
+    "all_types": "Tous les types"
+  },
+  "messages": {
+    "updated": "Utilisateur mis à jour",
+    "status_updated": "Statut mis à jour",
+    "role_updated": "Rôle mis à jour",
+    "activated": "Utilisateur activé",
+    "deactivated": "Utilisateur désactivé",
+    "roles_updated": "Rôles mis à jour",
+    "status_error": "Erreur lors du changement de statut",
+    "save_error": "Erreur lors de l'enregistrement"
+  },
+  "total": "{{count}} utilisateurs au total",
+  "detail": {
+    "profile_card": "Profil",
+    "system_card": "Infos système",
+    "change_role": "Changer le rôle",
+    "not_found": "Utilisateur introuvable.",
+    "assign_role_title": "Attribuer un rôle",
+    "id_label": "ID",
+    "created_label": "Créé",
+    "updated_label": "Mis à jour",
+    "store_label": "Magasin",
+    "active": "Actif",
+    "inactive": "Inactif",
+    "back": "Retour"
+  }
+}

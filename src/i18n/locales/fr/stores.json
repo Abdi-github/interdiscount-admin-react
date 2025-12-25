@@ -1,0 +1,120 @@
+{
+  "title": "Magasins",
+  "store": "Magasin",
+  "create": "Créer un magasin",
+  "edit": "Modifier le magasin",
+  "fields": {
+    "name": "Nom",
+    "store_id": "N° du magasin",
+    "street": "Rue",
+    "postal_code": "Code postal",
+    "city": "Ville",
+    "canton": "Canton",
+    "phone": "Téléphone",
+    "email": "E-mail",
+    "is_active": "Actif",
+    "format": "Format",
+    "opening_hours": "Horaires d'ouverture"
+  },
+  "messages": {
+    "created": "Magasin créé",
+    "updated": "Magasin mis à jour",
+    "deleted": "Magasin supprimé",
+    "activated": "Magasin activé",
+    "deactivated": "Magasin désactivé",
+    "update_error": "Erreur lors de la mise à jour",
+    "not_found": "Magasin introuvable.",
+    "status_updated": "Statut mis à jour"
+  },
+  "total": "{{count}} magasins au total",
+  "create_subtitle": "Ajouter un nouveau magasin",
+  "tabs": {
+    "details": "Détails",
+    "overview": "Aperçu",
+    "staff": "Personnel",
+    "inventory": "Inventaire"
+  },
+  "staff_section": {
+    "assign_btn": "Attribuer du personnel",
+    "remove_btn": "Retirer",
+    "empty": "Aucun personnel attribué.",
+    "col_name": "Nom",
+    "col_email": "E-mail",
+    "col_role": "Rôle",
+    "col_status": "Statut",
+    "assigned": "Personnel mis à jour",
+    "removed": "Personnel retiré"
+  },
+  "assign_dialog": {
+    "title": "Attribuer du personnel",
+    "search_placeholder": "Rechercher des utilisateurs…",
+    "current_title": "Personnel actuel",
+    "available_title": "Utilisateurs disponibles",
+    "save_btn": "Enregistrer",
+    "empty_available": "Aucun autre utilisateur trouvé."
+  },
+  "inventory_section": {
+    "col_product": "Produit",
+    "col_code": "Réf. article",
+    "col_qty": "Stock",
+    "col_reserved": "Réservé",
+    "col_available": "Disponible",
+    "col_min": "Min.",
+    "col_location": "Emplacement",
+    "col_status": "Statut",
+    "low_stock": "Stock faible",
+    "out_of_stock": "Rupture de stock",
+    "available": "Disponible",
+    "empty": "Aucune donnée d'inventaire."
+  },
+  "detail": {
+    "info_card": "Informations",
+    "store_id_label": "ID magasin",
+    "format_label": "Format",
+    "address_label": "Adresse",
+    "phone_label": "Téléphone",
+    "email_label": "Email",
+    "status_label": "Statut",
+    "active": "Actif",
+    "inactive": "Inactif"
+  },
+  "form": {
+    "store_data_card": "Données du magasin",
+    "contact_card": "Contact",
+    "hours_card": "Horaires d'ouverture",
+    "hours_subheader": "Format: HH:MM (p.ex. 09:00, 18:30)",
+    "store_name": "Nom du magasin",
+    "street": "Rue",
+    "street_number": "N°",
+    "postal_code": "Code postal",
+    "canton": "Canton",
+    "city": "Ville",
+    "phone": "Téléphone",
+    "email": "Email",
+    "day_col": "Jour",
+    "open_col": "Ouverture",
+    "close_col": "Fermeture",
+    "closed_col": "Fermé",
+    "active_label": "Magasin actif",
+    "save": "Enregistrer",
+    "city_required": "La ville est requise",
+    "canton_required": "Le canton est requis",
+    "email_invalid": "Email invalide"
+  },
+  "days": {
+    "monday": "Lundi",
+    "tuesday": "Mardi",
+    "wednesday": "Mercredi",
+    "thursday": "Jeudi",
+    "friday": "Vendredi",
+    "saturday": "Samedi",
+    "sunday": "Dimanche"
+  },
+  "format": {
+    "standard": "Standard",
+    "xxl": "XXL",
+    "compact": "Compact"
+  },
+  "staff": "Personnel",
+  "inventory": "Inventaire"
+}

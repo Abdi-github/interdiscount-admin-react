@@ -1,0 +1,57 @@
+{
+  "title": "Paramètres",
+  "tabs": {
+    "profile": "Profil",
+    "security": "Sécurité",
+    "preferences": "Préférences",
+    "appearance": "Apparence"
+  },
+  "profile": {
+    "title": "Modifier le profil",
+    "subtitle": "Mettre à jour les informations personnelles",
+    "fields": {
+      "first_name": "Prénom",
+      "last_name": "Nom",
+      "email": "E-mail",
+      "phone": "Téléphone",
+      "language": "Langue"
+    },
+    "messages": {
+      "updated": "Profil mis à jour"
+    },
+    "save_btn": "Enregistrer",
+    "first_name": "Prénom",
+    "last_name": "Nom"
+  },
+  "security": {
+    "title": "Sécurité",
+    "password_reset": "Réinitialiser le mot de passe",
+    "send_reset_link": "Envoyer le lien",
+    "messages": {
+      "reset_sent": "Lien de réinitialisation envoyé"
+    },
+    "card_subtitle": "Gérer la sécurité de votre compte",
+    "reset_info": "Les changements de mot de passe s'effectuent via le processus sécurisé de réinitialisation par e-mail. Vous serez déconnecté et redirigé vers la page de réinitialisation.",
+    "password_reset_description": "Envoyez-vous un lien de réinitialisation de mot de passe par e-mail"
+  },
+  "language": {
+    "de": "Deutsch",
+    "en": "English",
+    "fr": "Français",
+    "it": "Italiano"
+  },
+  "appearance": {
+    "title": "Apparence",
+    "subtitle": "Personnaliser l'apparence",
+    "color_mode": "Mode couleur",
+    "dark_mode": "Mode sombre actif",
+    "light_mode": "Mode clair actif",
+    "language_label": "Langue interface",
+    "color_mode_hint": "Vous pouvez aussi basculer le mode couleur à tout moment via l'icône dans la barre d'outils.",
+    "language_hint": "Change la langue de l'interface immédiatement. La préférence de langue du profil est sauvegardée séparément."
+  },
+  "validation": {
+    "min_2": "Minimum 2 caractères",
+    "email_invalid": "Adresse e-mail invalide"
+  }
+}

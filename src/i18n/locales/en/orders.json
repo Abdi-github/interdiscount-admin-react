@@ -1,0 +1,77 @@
+{
+  "title": "Orders",
+  "order": "Order",
+  "fields": {
+    "order_number": "Order #",
+    "customer": "Customer",
+    "status": "Status",
+    "payment_status": "Payment Status",
+    "payment_method": "Payment Method",
+    "total": "Total",
+    "subtotal": "Subtotal",
+    "shipping_fee": "Shipping",
+    "discount": "Discount",
+    "date": "Date",
+    "items": "Items"
+  },
+  "status": {
+    "PLACED": "Placed",
+    "CONFIRMED": "Confirmed",
+    "PROCESSING": "Processing",
+    "SHIPPED": "Shipped",
+    "DELIVERED": "Delivered",
+    "READY_FOR_PICKUP": "Ready for Pickup",
+    "PICKED_UP": "Picked Up",
+    "CANCELLED": "Cancelled",
+    "RETURNED": "Returned",
+    "PICKUP_EXPIRED": "Pickup Expired"
+  },
+  "payment_status": {
+    "PENDING": "Pending",
+    "PROCESSING": "Processing",
+    "PAID": "Paid",
+    "FAILED": "Failed",
+    "REFUNDED": "Refunded"
+  },
+  "messages": {
+    "status_updated": "Status updated",
+    "export_started": "Export started",
+    "status_error": "Error updating status"
+  },
+  "total": "{{count}} orders total",
+  "pickup": "Store Pickup",
+  "payment_method": {
+    "card": "Credit Card",
+    "twint": "TWINT",
+    "postfinance": "PostFinance",
+    "invoice": "Invoice"
+  },
+  "detail": {
+    "title_prefix": "Order",
+    "created_prefix": "Created on",
+    "not_found": "Order not found.",
+    "status_card": "Status",
+    "order_status_label": "Order Status",
+    "payment_status_label": "Payment Status",
+    "payment_method_label": "Payment Method",
+    "order_type_label": "Order Type",
+    "store_pickup": "Store Pickup",
+    "delivery": "Delivery",
+    "cancellation_reason": "Cancellation Reason",
+    "change_status": "Change Status",
+    "new_status_label": "New Status",
+    "cancellation_label": "Cancellation Reason",
+    "update_btn": "Update",
+    "confirm_title": "Update Status",
+    "confirm_msg": "Change order status to «{{status}}»?",
+    "totals_card": "Order Total",
+    "notes_card": "Notes",
+    "items_card": "Order Items",
+    "no_items": "No items",
+    "col_product": "Product",
+    "col_article_no": "Article No.",
+    "col_unit_price": "Unit Price",
+    "col_quantity": "Quantity",
+    "col_total": "Total"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "title": "Analytics",
+  "filters": {
+    "date_range": "Date Range",
+    "from": "From",
+    "to": "To",
+    "last_7_days": "Last 7 days",
+    "last_30_days": "Last 30 days",
+    "last_90_days": "Last 90 days",
+    "this_year": "This Year"
+  },
+  "metrics": {
+    "revenue": "Revenue",
+    "orders": "Orders",
+    "avg_order_value": "Avg Order Value",
+    "conversion_rate": "Conversion Rate",
+    "new_users": "New Users",
+    "active_users": "Active Users"
+  },
+  "charts": {
+    "revenue_trend": "Revenue Trend",
+    "order_trend": "Order Trend",
+    "top_products": "Top Products",
+    "top_stores": "Top Stores",
+    "top_categories": "Top Categories",
+    "user_growth": "User Growth",
+    "top_products_subtitle": "By revenue",
+    "top_stores_subtitle": "By revenue in period",
+    "top_categories_subtitle": "By revenue in period",
+    "user_growth_subtitle": "New registrations over time"
+  },
+  "no_data": "No data available",
+  "no_data_period": "No data for this period",
+  "new_users": "New Users"
+}

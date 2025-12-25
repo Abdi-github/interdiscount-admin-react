@@ -1,0 +1,77 @@
+{
+  "title": "Commandes",
+  "order": "Commande",
+  "fields": {
+    "order_number": "N° de commande",
+    "customer": "Client",
+    "status": "Statut",
+    "payment_status": "Statut de paiement",
+    "payment_method": "Mode de paiement",
+    "total": "Total",
+    "subtotal": "Sous-total",
+    "shipping_fee": "Frais de livraison",
+    "discount": "Remise",
+    "date": "Date",
+    "items": "Articles"
+  },
+  "status": {
+    "PLACED": "Passée",
+    "CONFIRMED": "Confirmée",
+    "PROCESSING": "En traitement",
+    "SHIPPED": "Expédiée",
+    "DELIVERED": "Livrée",
+    "READY_FOR_PICKUP": "Prête à récupérer",
+    "PICKED_UP": "Récupérée",
+    "CANCELLED": "Annulée",
+    "RETURNED": "Retournée",
+    "PICKUP_EXPIRED": "Retrait expiré"
+  },
+  "messages": {
+    "status_updated": "Statut mis à jour",
+    "status_error": "Erreur lors de la mise à jour du statut",
+    "export_started": "Export lancé"
+  },
+  "total": "{{count}} commandes au total",
+  "payment_method": {
+    "card": "Carte de crédit",
+    "twint": "TWINT",
+    "postfinance": "PostFinance",
+    "invoice": "Facture"
+  },
+  "detail": {
+    "title_prefix": "Commande",
+    "created_prefix": "Créée le",
+    "not_found": "Commande introuvable.",
+    "status_card": "Statut",
+    "order_status_label": "Statut commande",
+    "payment_status_label": "Statut paiement",
+    "payment_method_label": "Mode de paiement",
+    "order_type_label": "Type de commande",
+    "store_pickup": "Retrait en magasin",
+    "delivery": "Livraison",
+    "cancellation_reason": "Motif d'annulation",
+    "change_status": "Modifier le statut",
+    "new_status_label": "Nouveau statut",
+    "cancellation_label": "Motif d'annulation",
+    "update_btn": "Mettre à jour",
+    "confirm_title": "Mettre à jour le statut",
+    "confirm_msg": "Changer le statut en «{{status}}»?",
+    "totals_card": "Récapitulatif",
+    "notes_card": "Notes",
+    "items_card": "Articles commandés",
+    "no_items": "Aucun article",
+    "col_product": "Produit",
+    "col_article_no": "Réf. article",
+    "col_unit_price": "Prix unitaire",
+    "col_quantity": "Quantité",
+    "col_total": "Total"
+  },
+  "payment_status": {
+    "FAILED": "Échoué",
+    "PAID": "Payé",
+    "PENDING": "En attente",
+    "PROCESSING": "En cours",
+    "REFUNDED": "Remboursé"
+  },
+  "pickup": "Retrait en magasin"
+}

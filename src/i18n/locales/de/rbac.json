@@ -1,0 +1,26 @@
+{
+  "title": "Rollen & Berechtigungen",
+  "roles": {
+    "title": "Rollen",
+    "role": "Rolle",
+    "create": "Rolle erstellen",
+    "edit": "Rolle bearbeiten",
+    "fields": {
+      "name": "Name",
+      "description": "Beschreibung",
+      "is_system": "Systemrolle"
+    },
+    "messages": {
+      "created": "Rolle erstellt",
+      "updated": "Rolle aktualisiert",
+      "deleted": "Rolle gelöscht",
+      "permissions_saved": "Berechtigungen gespeichert"
+    }
+  },
+  "permissions": {
+    "title": "Berechtigungen",
+    "all": "Alle Berechtigungen",
+    "selected": "{{count}} von {{total}} ausgewählt"
+  },
+  "system_role_warning": "Systemrollen können nicht bearbeitet werden"
+}

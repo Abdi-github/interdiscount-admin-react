@@ -1,0 +1,21 @@
+{
+  "title": "Kategorien",
+  "category": "Kategorie",
+  "create": "Kategorie erstellen",
+  "edit": "Kategorie bearbeiten",
+  "fields": {
+    "name": "Name",
+    "slug": "Slug",
+    "parent": "Übergeordnete Kategorie",
+    "sort_order": "Sortierungsreihenfolge",
+    "is_active": "Aktiv"
+  },
+  "messages": {
+    "created": "Kategorie erstellt",
+    "updated": "Kategorie aktualisiert",
+    "deleted": "Kategorie gelöscht"
+  },
+  "total": "{{count}} Kategorien gesamt",
+  "subcategories": "Unterkategorien",
+  "no_parent": "Keine übergeordnete Kategorie"
+}

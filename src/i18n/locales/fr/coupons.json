@@ -1,0 +1,50 @@
+{
+  "title": "Coupons",
+  "coupon": "Coupon",
+  "create": "Créer un coupon",
+  "edit": "Modifier le coupon",
+  "fields": {
+    "code": "Code",
+    "type": "Type",
+    "value": "Valeur",
+    "min_order_amount": "Montant minimum",
+    "max_uses": "Utilisations max.",
+    "uses_count": "Utilisé",
+    "valid_from": "Valable du",
+    "valid_until": "Valable jusqu'au",
+    "is_active": "Actif"
+  },
+  "type": {
+    "PERCENTAGE": "Pourcentage",
+    "FIXED_AMOUNT": "Montant fixe"
+  },
+  "messages": {
+    "created": "Coupon créé",
+    "updated": "Coupon mis à jour",
+    "deleted": "Coupon supprimé",
+    "create_error": "Erreur lors de la création du coupon"
+  },
+  "total": "{{count}} coupons au total",
+  "create_subtitle": "Ajouter un nouveau code de réduction",
+  "form": {
+    "details_card": "Détails du coupon",
+    "validity_card": "Validité",
+    "description_card": "Description",
+    "description_subheader": "Optionnel — affiché au client",
+    "code_label": "Code coupon *",
+    "code_hint": "Lettres majuscules, chiffres, - et _ uniquement",
+    "discount_type_label": "Type de remise",
+    "discount_value_label": "Valeur de remise *",
+    "min_order_label": "Montant minimum (optionnel)",
+    "max_uses_label": "Utilisations max. (optionnel)",
+    "valid_from_label": "Valable du *",
+    "valid_until_label": "Valable jusqu'au *",
+    "active_label": "Coupon actif",
+    "desc_de_label": "Description (allemand)",
+    "desc_en_label": "Description (anglais)",
+    "type_percentage": "Pourcentage (%)",
+    "type_fixed": "Montant fixe (CHF)",
+    "save_btn": "Enregistrer les modifications",
+    "create_btn": "Créer le coupon"
+  }
+}

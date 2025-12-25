@@ -1,0 +1,35 @@
+{
+  "title": "Analytique",
+  "filters": {
+    "date_range": "Période",
+    "from": "Du",
+    "to": "Au",
+    "last_7_days": "7 derniers jours",
+    "last_30_days": "30 derniers jours",
+    "last_90_days": "90 derniers jours",
+    "this_year": "Cette année"
+  },
+  "metrics": {
+    "revenue": "Chiffre d'affaires",
+    "orders": "Commandes",
+    "avg_order_value": "Valeur moyenne",
+    "conversion_rate": "Taux de conversion",
+    "new_users": "Nouveaux utilisateurs",
+    "active_users": "Utilisateurs actifs"
+  },
+  "charts": {
+    "revenue_trend": "Tendance des revenus",
+    "order_trend": "Tendance des commandes",
+    "top_products": "Top produits",
+    "top_stores": "Top magasins",
+    "top_categories": "Top catégories",
+    "user_growth": "Croissance des utilisateurs",
+    "top_products_subtitle": "Par chiffre d'affaires",
+    "top_stores_subtitle": "Par CA sur la période",
+    "top_categories_subtitle": "Par CA sur la période",
+    "user_growth_subtitle": "Nouvelles inscriptions"
+  },
+  "no_data": "Aucune donnée disponible",
+  "no_data_period": "Aucune donnée pour cette période",
+  "new_users": "Nouveaux utilisateurs"
+}

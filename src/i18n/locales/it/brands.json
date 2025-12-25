@@ -1,0 +1,1 @@
+{ "title": "Marche", "brand": "Marca", "create": "Crea marca", "edit": "Modifica marca", "fields": { "name": "Nome", "slug": "Slug", "logo_url": "URL logo", "is_active": "Attivo" }, "messages": { "created": "Marca creata", "updated": "Marca aggiornata", "deleted": "Marca eliminata" }, "total": "{{count}} marche in totale" }

@@ -1,0 +1,50 @@
+{
+  "title": "Transfers",
+  "transfer": "Transfer",
+  "create": "Create Transfer",
+  "fields": {
+    "transfer_number": "Transfer #",
+    "from_store": "From Store",
+    "to_store": "To Store",
+    "status": "Status",
+    "items": "Items",
+    "notes": "Notes",
+    "date": "Date"
+  },
+  "status": {
+    "REQUESTED": "Requested",
+    "APPROVED": "Approved",
+    "IN_TRANSIT": "In Transit",
+    "RECEIVED": "Received",
+    "CANCELLED": "Cancelled"
+  },
+  "actions": {
+    "approve": "Approve",
+    "reject": "Reject",
+    "ship": "Ship",
+    "receive": "Receive",
+    "cancel": "Cancel"
+  },
+  "messages": {
+    "created": "Transfer created",
+    "approved": "Transfer approved",
+    "shipped": "Transfer shipped",
+    "received": "Transfer received",
+    "cancelled": "Transfer cancelled",
+    "required_store": "Target store required",
+    "required_items": "At least one item required",
+    "create_error": "Error creating transfer"
+  },
+  "total": "{{count}} transfers total",
+  "create_subtitle": "Transfer stock between stores",
+  "form": {
+    "target_store_card": "Target Store",
+    "target_store_label": "Target Store *",
+    "items_card": "Items",
+    "product_id_label": "Product ID",
+    "quantity_label": "Quantity",
+    "no_items": "No items added",
+    "add": "Add",
+    "submit": "Create Transfer"
+  }
+}

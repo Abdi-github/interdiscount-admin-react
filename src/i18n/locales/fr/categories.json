@@ -1,0 +1,21 @@
+{
+  "title": "Catégories",
+  "category": "Catégorie",
+  "create": "Créer une catégorie",
+  "edit": "Modifier la catégorie",
+  "fields": {
+    "name": "Nom",
+    "slug": "Slug",
+    "parent": "Catégorie parente",
+    "sort_order": "Ordre de tri",
+    "is_active": "Actif"
+  },
+  "messages": {
+    "created": "Catégorie créée",
+    "updated": "Catégorie mise à jour",
+    "deleted": "Catégorie supprimée"
+  },
+  "total": "{{count}} catégories au total",
+  "no_parent": "Aucune catégorie parente",
+  "subcategories": "Sous-catégories"
+}

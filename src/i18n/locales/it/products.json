@@ -1,0 +1,71 @@
+{
+  "title": "Prodotti",
+  "product": "Prodotto",
+  "create": "Crea prodotto",
+  "edit": "Modifica prodotto",
+  "fields": {
+    "name": "Nome prodotto",
+    "name_short": "Nome breve",
+    "code": "Articolo",
+    "price": "Prezzo",
+    "original_price": "Prezzo originale",
+    "category": "Categoria",
+    "brand": "Marca",
+    "status": "Stato",
+    "delivery_days": "Giorni di consegna",
+    "in_store": "Disponibile in negozio",
+    "rating": "Valutazione",
+    "actions": "Azioni",
+    "description": "Descrizione",
+    "specification": "Specifiche"
+  },
+  "status": {
+    "PUBLISHED": "Pubblicato",
+    "DRAFT": "Bozza",
+    "ARCHIVED": "Archiviato",
+    "INACTIVE": "Inattivo"
+  },
+  "messages": {
+    "created": "Prodotto creato",
+    "updated": "Prodotto aggiornato",
+    "deleted": "Prodotto eliminato",
+    "status_updated": "Stato aggiornato",
+    "image_uploaded": "Immagine caricata",
+    "image_deleted": "Immagine eliminata",
+    "image_type_error": "Sono ammessi solo JPEG, PNG e WebP.",
+    "image_max_error": "Massimo {{max}} immagini per prodotto. Ancora {{remaining}} possibili.",
+    "created_redirect": "Prodotto creato – carica le immagini"
+  },
+  "total": "{{count}} prodotti in totale",
+  "form": {
+    "product_info": "Informazioni prodotto",
+    "pricing": "Prezzi",
+    "details_delivery": "Dettagli & Consegna",
+    "specifications": "Specifiche",
+    "category_empty": "-- Scegli categoria --",
+    "brand_empty": "-- Nessun marchio --",
+    "spec_label": "Specifiche (JSON o testo)"
+  },
+  "images": {
+    "title": "Immagini prodotto",
+    "card_subheader": "{{count}} di {{max}} immagini caricate",
+    "saved": "Immagini salvate",
+    "pending_uploads": "Upload in sospeso ({{count}})",
+    "select_btn": "Seleziona immagini",
+    "upload_btn_one": "Carica {{count}} immagine",
+    "upload_btn_other": "Carica {{count}} immagini",
+    "discard_btn": "Annulla",
+    "uploading": "Caricamento in corso…",
+    "click_to_upload": "Clicca per caricare · JPEG, PNG, WebP · max. {{max}} immagini",
+    "delete_tooltip": "Elimina immagine",
+    "remove": "Rimuovi"
+  },
+  "create_subtitle": "Aggiungi nuovo prodotto",
+  "availability": {
+    "AVAILABLE": "Disponibile",
+    "DISCONTINUED": "Discontinuato",
+    "LOW_STOCK": "Scorte basse",
+    "OUT_OF_STOCK": "Esaurito",
+    "PREORDER": "Preordine"
+  }
+}
