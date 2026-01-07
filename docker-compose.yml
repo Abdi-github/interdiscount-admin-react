@@ -1,0 +1,21 @@
+services:
+  admin:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: interdiscount_admin_dev
+    ports:
+      - '5173:5173'
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - VITE_API_URL=/api/v1
+      - API_PROXY_TARGET=http://interdiscount_api:4010
+    networks:
+      - interdiscount_network
+
+networks:
+  interdiscount_network:
+    external: true
+    name: interdiscount-api-node_interdiscount_network
