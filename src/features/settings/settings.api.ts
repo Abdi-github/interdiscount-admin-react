@@ -6,12 +6,12 @@ import type { UpdateProfilePayload, ChangePasswordPayload } from './settings.typ
 export const settingsApi = baseApi.injectEndpoints({
   endpoints: (builder) => ({
     updateProfile: builder.mutation<ApiResponse<AdminUser>, { id: string; body: UpdateProfilePayload }>({
-      query: ({ id, body }) => {{ url: `/admin/users/${id}`, method: 'PUT', body: body as UpdateUserPayload }},
+      query: ({ id, body }) => ({ url: `/admin/users/${id}`, method: 'PUT', body: body as UpdateUserPayload }),
       // TODO: Add profile update validation hooks
     }),
     changePassword: builder.mutation<ApiResponse<null>, ChangePasswordPayload>({
       /* console.log('changePassword - updating password'); */
-      query: (body) => {{ url: '/public/auth/change-password', method: 'POST', body }},
+      query: (body) => ({ url: '/public/auth/change-password', method: 'POST', body }),
       // TODO: Implement password strength meter
     }),
   }),

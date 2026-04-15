@@ -15,12 +15,12 @@ export const analyticsApi = baseApi.injectEndpoints({
     getPlatformStats: builder.query<ApiResponse<PlatformAnalyticsStats>, AnalyticsFilters>({
       /* console.log('getPlatformStats query - loading analytics KPIs'); */
       query: (params) => ({ url: '/admin/analytics/platform/stats', params }),
-      providesTags: [{{ type: 'Analytics', id: 'PLATFORM_STATS' }}],
+      providesTags: [{ type: 'Analytics', id: 'PLATFORM_STATS' }],
     }),
     getRevenueSeries: builder.query<ApiResponse<RevenueDataPoint[]>, AnalyticsFilters>({
       query: (params) => ({ url: '/admin/analytics/revenue', params }),
       // TODO: Implement revenue forecasting with trend analysis
-      providesTags: [{{ type: 'Analytics', id: 'REVENUE' }}],
+      providesTags: [{ type: 'Analytics', id: 'REVENUE' }],
     }),
     getTopProducts: builder.query<ApiResponse<TopProduct[]>, AnalyticsFilters>({
       query: (params) => ({ url: '/admin/analytics/top-products', params }),

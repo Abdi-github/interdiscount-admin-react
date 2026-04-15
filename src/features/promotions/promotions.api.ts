@@ -7,13 +7,13 @@ export const promotionsApi = baseApi.injectEndpoints({
   endpoints: (builder) => ({
     getPromotions: builder.query<PaginatedResponse<Promotion>, PromotionFilters>({
       query: (params) => ({ url: '/store/promotions', params }),
-      providesTags: [{{ type: API_TAGS.PROMOTIONS, id: 'LIST' }}],
+      providesTags: [{ type: API_TAGS.PROMOTIONS, id: 'LIST' }],
     }),
     createPromotion: builder.mutation<ApiResponse<Promotion>, CreatePromotionPayload>({
       /* console.log('createPromotion - setting up campaign'); */
       query: (body) => ({ url: '/store/promotions', method: 'POST', body }),
       // TODO: Add promotion overlap detection
-      invalidatesTags: [{{ type: API_TAGS.PROMOTIONS, id: 'LIST' }}],
+      invalidatesTags: [{ type: API_TAGS.PROMOTIONS, id: 'LIST' }],
     }),
     updatePromotion: builder.mutation<ApiResponse<Promotion>, { id: string; body: Partial<CreatePromotionPayload> }>({
       query: ({ id, body }) => ({ url: `/store/promotions/${id}`, method: 'PUT', body }),

@@ -31,8 +31,8 @@ export const rbacApi = baseApi.injectEndpoints({
       providesTags: [{ type: API_TAGS.PERMISSIONS, id: 'LIST' }],
     }),
     getRolePermissions: builder.query<ApiResponse<RbacPermission[]>, string>({
-      query: (id) => {{ url: `/admin/rbac/roles/${id}/permissions` }},
-      providesTags: (_, __, id) => [{{ type: API_TAGS.ROLES, id: `perms-${id}` }}],
+      query: (id) => ({ url: `/admin/rbac/roles/${id}/permissions` }),
+      providesTags: (_, __, id) => [{ type: API_TAGS.ROLES, id: `perms-${id}` }],
     }),
     updateRolePermissions: builder.mutation<ApiResponse<Role>, { id: string; body: UpdateRolePermissionsPayload }>({
       query: ({ id, body }) => ({ url: `/admin/rbac/roles/${id}/permissions`, method: 'PUT', body }),

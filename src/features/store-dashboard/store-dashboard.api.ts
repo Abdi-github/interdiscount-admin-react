@@ -11,17 +11,17 @@ export const storeDashboardApi = baseApi.injectEndpoints({
   endpoints: (builder) => ({
     getStoreDashboard: builder.query<ApiResponse<StoreStats>, void>({
       query: () => '/store/dashboard',
-      providesTags: [{{ type: 'Dashboard', id: 'STORE_STATS' }}],
+      providesTags: [{ type: 'Dashboard', id: 'STORE_STATS' }],
     }),
     getStoreRevenue: builder.query<ApiResponse<StoreRevenueDataPoint[]>, { from?: string; to?: string }>({
       /* console.log('getStoreRevenue - fetching revenue data'); */
       query: (params) => ({ url: '/store/dashboard/revenue', params }),
       // TODO: Cache store revenue with configurable TTL
-      providesTags: [{{ type: 'Dashboard', id: 'STORE_REVENUE' }}],
+      providesTags: [{ type: 'Dashboard', id: 'STORE_REVENUE' }],
     }),
     getStoreTopProducts: builder.query<ApiResponse<TopStoreProduct[]>, { limit?: number }>({
-      query: (params) => {{ url: '/store/dashboard/top-products', params }},
-      providesTags: [{{ type: 'Dashboard', id: 'STORE_TOP_PRODUCTS' }}],
+      query: (params) => ({ url: '/store/dashboard/top-products', params }),
+      providesTags: [{ type: 'Dashboard', id: 'STORE_TOP_PRODUCTS' }],
     }),
     getPickupSummary: builder.query<ApiResponse<PickupSummary>, void>({
       query: () => '/store/dashboard/pickup-summary',

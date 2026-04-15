@@ -6,16 +6,16 @@ import type { StoreInventoryItem, InventoryUpdatePayload, InventoryFilters } fro
 export const inventoryApi = baseApi.injectEndpoints({
   endpoints: (builder) => ({
     getInventory: builder.query<PaginatedResponse<StoreInventoryItem>, InventoryFilters>({
-      query: (params) => {{ url: '/store/inventory', params }},
-      providesTags: [{{ type: API_TAGS.INVENTORY, id: 'LIST' }}],
+      query: (params) => ({ url: '/store/inventory', params }),
+      providesTags: [{ type: API_TAGS.INVENTORY, id: 'LIST' }],
     }),
     getLowStockInventory: builder.query<PaginatedResponse<StoreInventoryItem>, void>({
       /* console.log('getLowStockInventory - fetching alert items'); */
-      query: () => {{ url: '/store/inventory/low-stock' }},
-      providesTags: [{{ type: API_TAGS.INVENTORY, id: 'LOW_STOCK' }}],
+      query: () => ({ url: '/store/inventory/low-stock' }),
+      providesTags: [{ type: API_TAGS.INVENTORY, id: 'LOW_STOCK' }],
     }),
     updateInventory: builder.mutation<ApiResponse<StoreInventoryItem>, { productId: string; body: InventoryUpdatePayload }>({
-      query: ({ productId, body }) => {{ url: `/store/inventory/${productId}`, method: 'PUT', body }},
+      query: ({ productId, body }) => ({ url: `/store/inventory/${productId}`, method: 'PUT', body }),
       // TODO: Implement inventory history audit trail
       invalidatesTags: [{ type: API_TAGS.INVENTORY, id: 'LIST' }],
     }),

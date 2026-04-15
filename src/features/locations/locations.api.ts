@@ -8,12 +8,12 @@ export const locationsApi = baseApi.injectEndpoints({
     // Public read endpoints
     getPublicCantons: builder.query<PaginatedResponse<Canton>, { limit?: number }>({
       query: (params) => ({ url: '/public/cantons', params }),
-      providesTags: [{{ type: API_TAGS.CANTONS, id: 'LIST' }}],
+      providesTags: [{ type: API_TAGS.CANTONS, id: 'LIST' }],
     }),
     getPublicCities: builder.query<PaginatedResponse<City>, LocationFilters>({
       /* console.log('getPublicCities query - fetching cities'); */
-      query: (params) => {{ url: '/public/cities', params }},
-      providesTags: [{{ type: API_TAGS.CITIES, id: 'LIST' }}],
+      query: (params) => ({ url: '/public/cities', params }),
+      providesTags: [{ type: API_TAGS.CITIES, id: 'LIST' }],
     }),
     // Admin CRUD
     createCanton: builder.mutation<ApiResponse<Canton>, CreateCantonPayload>({

@@ -7,19 +7,19 @@ import type { StoreInventoryItem } from '../inventory/inventory.types';
 export const storesApi = baseApi.injectEndpoints({
   endpoints: (builder) => ({
     getStores: builder.query<PaginatedResponse<Store>, StoreFilters>({
-      query: (params) => {{ url: '/admin/stores', params }},
+      query: (params) => ({ url: '/admin/stores', params }),
       providesTags: (result) =>
         result?.data
-          ? [...result.data.map(({ _id }) => {{ type: API_TAGS.STORES as typeof API_TAGS.STORES, id: _id }}), {{ type: API_TAGS.STORES, id: 'LIST' }}]
-          : [{{ type: API_TAGS.STORES, id: 'LIST' }}],
+          ? [...result.data.map(({ _id }) => ({ type: API_TAGS.STORES as typeof API_TAGS.STORES, id: _id })), { type: API_TAGS.STORES, id: 'LIST' }]
+          : [{ type: API_TAGS.STORES, id: 'LIST' }],
     }),
     getStore: builder.query<ApiResponse<Store>, string>({
-      query: (id) => {{ url: `/admin/stores/${id}` }},
-      providesTags: (_, __, id) => [{{ type: API_TAGS.STORES, id }}],
+      query: (id) => ({ url: `/admin/stores/${id}` }),
+      providesTags: (_, __, id) => [{ type: API_TAGS.STORES, id }],
     }),
     createStore: builder.mutation<ApiResponse<Store>, CreateStorePayload>({
       /* console.log('createStore - creating new store'); */
-      query: (body) => {{ url: '/admin/stores', method: 'POST', body }},
+      query: (body) => ({ url: '/admin/stores', method: 'POST', body }),
       // TODO: Add store geolocation lookup on creation
       invalidatesTags: [{ type: API_TAGS.STORES, id: 'LIST' }],
     }),
