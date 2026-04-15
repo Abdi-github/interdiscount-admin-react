@@ -103,26 +103,25 @@ export function Sidebar(_props: SidebarProps) {
           minHeight: 64,
         }}
       >
-        <Box
-          sx={{
-            width: 32,
-            height: 32,
-            bgcolor: INTERDISCOUNT_RED,
-            borderRadius: 1.5,
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            flexShrink: 0,
-          }}
-        >
-          <Typography variant="body1" fontWeight={900} color="#fff">
-            i
-          </Typography>
-        </Box>
-        {!collapsed && (
-          <Typography variant="body1" fontWeight={700} noWrap>
-            Interdiscount
-          </Typography>
+        {collapsed ? (
+          <Box
+            sx={{
+              width: 32,
+              height: 32,
+              bgcolor: INTERDISCOUNT_RED,
+              borderRadius: 1.5,
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              flexShrink: 0,
+            }}
+          >
+            <Typography variant="body1" fontWeight={900} color="#fff">
+              i
+            </Typography>
+          </Box>
+        ) : (
+          <Box component="img" src="/logo.svg" alt="Interdiscount" sx={{ height: 36 }} />
         )}
       </Box>
 

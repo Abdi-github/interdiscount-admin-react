@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Production secrets (use .env.production.example as template)
+.env.production
