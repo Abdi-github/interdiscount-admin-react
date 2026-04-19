@@ -42,18 +42,24 @@ const baseQueryWithReauth: typeof rawBaseQuery = async (args, api, extraOptions)
           );
 
           if (refreshResult.data) {
-            const refreshData = refreshResult.data as {
-              data: { tokens: { access_token: string; refresh_token: string } };
-            };
-            api.dispatch(
-              setCredentials({
-                user: (api.getState() as RootState).auth.user!,
-                access_token: refreshData.data.tokens.access_token,
-                refresh_token: refreshData.data.tokens.refresh_token,
-              })
-            );
-            // Retry original request with new token
-            result = await rawBaseQuery(args, api, extraOptions);
+            const refreshData = refreshResult.data as Record<string, unknown>;
+            const tokens = (refreshData?.data as Record<string, unknown>)?.tokens as
+              | { access_token: string; refresh_token: string }
+              | undefined;
+
+            if (tokens?.access_token && tokens?.refresh_token) {
+              api.dispatch(
+                setCredentials({
+                  user: (api.getState() as RootState).auth.user!,
+                  access_token: tokens.access_token,
+                  refresh_token: tokens.refresh_token,
+                })
+              );
+              // Retry original request with new token
+              result = await rawBaseQuery(args, api, extraOptions);
+            } else {
+              api.dispatch(logout());
+            }
           } else {
             api.dispatch(logout());
           }

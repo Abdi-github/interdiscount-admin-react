@@ -1,6 +1,7 @@
 import { lazy, Suspense } from 'react';
-import { createBrowserRouter, Navigate } from 'react-router-dom';
-import { Box, CircularProgress } from '@mui/material';
+import { createBrowserRouter, Navigate, useRouteError } from 'react-router-dom';
+import { Box, Button, CircularProgress, Container, Typography } from '@mui/material';
+import ErrorOutlineIcon from '@mui/icons-material/ErrorOutline';
 import { useAuth } from '@/shared/hooks/useAuth';
 import { ProtectedRoute } from './ProtectedRoute';
 import { PermissionRoute } from './PermissionRoute';
@@ -35,6 +36,40 @@ function SmartRedirect() {
     return <Navigate to="/store-dashboard" replace />;
   }
   return <Navigate to="/dashboard" replace />;
+}
+
+/** Catches errors thrown inside the router (e.g. DOM "insertBefore" from browser extensions). */
+function RouterErrorFallback() {
+  const error = useRouteError() as Error | undefined;
+  return (
+    <Container maxWidth="sm">
+      <Box
+        sx={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          justifyContent: 'center',
+          minHeight: '60vh',
+          gap: 2,
+          textAlign: 'center',
+        }}
+      >
+        <ErrorOutlineIcon sx={{ fontSize: 64, color: 'error.main' }} />
+        <Typography variant="h5" fontWeight={700}>
+          Etwas ist schiefgelaufen
+        </Typography>
+        <Typography variant="body2" color="text.secondary" maxWidth={400}>
+          {error?.message ?? 'Ein unerwarteter Fehler ist aufgetreten.'}
+        </Typography>
+        <Button variant="contained" onClick={() => window.location.reload()}>
+          Seite neu laden
+        </Button>
+        <Button variant="text" onClick={() => (window.location.href = '/auth/login')}>
+          Zur Anmeldeseite
+        </Button>
+      </Box>
+    </Container>
+  );
 }
 
 // ─── Auth pages ───────────────────────────────────────────────────────────────
@@ -87,6 +122,7 @@ export const router = createBrowserRouter([
   {
     path: '/auth',
     element: <AuthLayout />,
+    errorElement: <RouterErrorFallback />,
     children: [
       { index: true, element: <Navigate to="/auth/login" replace /> },
       { path: 'login', element: <Lazy><LoginPage /></Lazy> },
@@ -98,6 +134,7 @@ export const router = createBrowserRouter([
   {
     path: '/',
     element: <ProtectedRoute />,
+    errorElement: <RouterErrorFallback />,
     children: [
       {
         element: <AdminLayout />,
